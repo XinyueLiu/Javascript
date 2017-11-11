@@ -1,5 +1,5 @@
 # Javascript
 
-Data visualization and user-end functionality
+Data_visualization 
 -	http://www-scf.usc.edu/~liuxinyu/proposal_XinYue_Liu/index.html
 -	Jquery, Highchart, Html, CSS, SVG
