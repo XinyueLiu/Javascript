@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<title>XinYueLiu - Assgt2</title>
+	<style type="text/css">
+		path{
+			stroke: #f9fcfe;
+			/*fill: #ffffff;*/
+		}
+		path:hover {
+			stroke: #d9d9d9;
+		}
+	</style>
+</head>
+<body>
+<div id="test">TEST</div>
+<div id="mapWrapper"></div>
+<script type="text/javascript">
+	//jQuery
+	var mapObj = null;
+	$.ajax({
+		url: 'http://www-scf.usc.edu/~liuxinyu/CampusProject/assgt2/MapConfig.js',
+		dataType:'jsonp',
+		jsonpCallback:'jsonpcallback',
+		success: function(data){
+			mapObj = $.parseJSON(data);
+			console.log(mapObj);
+		}
+	});
+	//end of jQeury
+	console.log(mapObj);
+	var svg = d3.select("body")
+            .append("svg")
+            .attr("width", mapObj['width'])
+            .attr("height", mapObj['height']);
+
+    
+
+
+</script>
+</body>
+</html>

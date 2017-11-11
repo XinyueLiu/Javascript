@@ -1,0 +1,24 @@
+{
+"name": "地点",
+"location":
+[
+	{
+		"name":"Beijing",
+		"log":"116.3",
+		"lat":"39.9",
+		"img":"img/beijing.png"
+	},
+	{
+		"name":"Wulumuqi",
+		"log":"87.6",
+		"lat":"43.8",
+		"img":"img/wulumuqi.png"
+	},
+	{
+		"name":"LaSa",
+		"log":"91.2",
+		"lat":"29.7",
+		"img":"img/lasa.png"
+	}
+]
+}

@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+	<title>XinYueLiu - Assgt2</title>
+	<style type="text/css">
+		#mapWrapper{
+			float: left;
+			border: black solid 2px;
+		}
+
+		#cityInfo{
+			float: left;
+			/*margin-left: 50%*/
+		}
+
+		#description{
+			float: right;
+		}
+		g{
+			stroke: #000000;
+		}
+		path{
+			stroke: #f9fcfe;
+			/*fill: #ffffff;*/
+		}
+		path:hover {
+			stroke: #d9d9d9;
+		}
+		button {
+  			padding: 10px 20px;
+		}
+	</style>
+</head>
+<body>
+<div id="content">
+<div id="mapWrapper"></div>
+<div id="cityInfo"></div>
+</div>
+<div id="description">
+	<b>Description:</b></br>
+		mouseScroll/doubleClick: zoom in&out map</br>
+		mouseHover: show each province's name</br>
+		mouseClick: click circles to see city info </br> 
+		& weather info
+</div>
+<script type="text/javascript">
+	//jQuery
+	$.ajax({
+		url: 'http://www-scf.usc.edu/~liuxinyu/CampusProject/assgt2/MapConfig.js',
+		dataType:'jsonp',
+		jsonpCallback:'jsonpcallback',
+		success: function(data){
+			createSVGgraph(data);
+		}
+	});
+
+	function createSVGgraph(data){
+		var nameArr = null;
+		var obj = $.parseJSON(data);
+		var width = obj['width'];
+		var height = obj['height'];
+		//console.log(obj);
+		//add svg tag
+		var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height",height);
+		var str = "<svg id='map'";
+		str += "width=" + width;
+		str += " height=" + height + "></svg>";
+		$('#mapWrapper').append(str);
+
+		//add each province
+		var str2 = "<g>";
+		$.map(obj['shapes'], function(value, index) {
+    		str2 += "<path id=" + index + " d='" + value + "'/>";
+		});
+		//insert into map
+		str += "</g>";
+		$("#map").html(str2);
+
+		$.map(obj['names'], function(value, index) {
+			var cur = "#" + index;
+    		$(cur).attr('fill',"#" + value['color']);
+		});
+		//end of jQeury
+		//start of d3
+
+		var svg = d3.select('g');
+		var active = d3.select(null); 
+		var projection = d3.geo.mercator()
+						.center([103, 36.5])
+						.scale(600)
+    					.translate([obj['width']/2, obj['height']/2]);
+
+    	var path = d3.geo.path().projection(projection);
+		//console.log(svg);
+		svg.selectAll("path")
+				.on('mouseover', function() {
+                    d3.select(this).attr('fill', '#b7c2f3');
+                    var tmpWidth = 1.2 * d3.select(this).attr('width');
+                    d3.select(this).attr('width', tmpWidth);
+
+                    //创建显示tooltip用的矩形
+                    svg.append("rect")
+                            .attr("id", "tipRect")
+                            .attr("x", 10)
+                            .attr("y",10)
+                            .attr("width",180)
+                            .attr("height",30)
+                            .attr("stroke","black")
+                            .attr("fill","#fbb299")
+                    ;
+
+                    //创建显示tooltip文本
+                    svg.append("text")
+                            .attr("id", "tip")
+                            .attr("x", 20)
+                            .attr("y", 30)
+                            .attr("font-family", "sans-serif")
+                            .attr("font-size", "11px")
+                            .attr("font-weight", "bold")
+                            .attr("fill", "black")
+                            .text("Province: " + obj['names'][d3.select(this).attr('id')]['name']);
+                })
+                .on('mouseout', function(data) {
+                	d3.select(this).attr('fill', '#'+obj['names'][d3.select(this).attr('id')]['color']);
+                    d3.select("#tipRect").remove();
+                    d3.select("#tip").remove();
+                })
+  				.call(d3.behavior.zoom().on("zoom", redraw));
+
+  				
+
+  				function redraw() {
+  					//console.log("here", d3.event.translate, d3.event.scale);
+  					svg.attr("transform","translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")");
+				}
+
+                
+                d3.json("places.json", function(error, places ) {
+					//Insert class location elements
+					var location = svg.selectAll(".location")
+						.data(places.location)
+						.enter()
+						.append("g")
+						.attr("class","location")
+						.attr("transform",function(d){
+							//Calculate current position
+							var coor = projection([d.log, d.lat]);
+							return "translate("+ coor[0] + "," + coor[1] +")";
+						});
+
+					//Insert a circle
+					location.append("circle")
+						.attr("fill","#fc254d")
+						.attr("r",7)
+						.on('mouseover',overCity)
+						.on('mouseout',function(){
+							d3.select(this).attr("fill","#fc254d");
+							d3.select("#cityImg").remove();
+							d3.select("#cityText").remove();
+					});
+
+					function overCity(){
+						d3.select(this).attr("fill","#93051f");
+						d3.select(this.parentNode).append("image")
+						.attr("id",'cityImg')
+						.attr("x",20)
+						.attr("y",-40)
+						.attr("width",90)
+						.attr("height",90)
+						.attr("xlink:href",function(d){
+							return d.img;
+						});
+
+						d3.select(this.parentNode).append("text")
+						.attr("font-size",12)
+						.attr("id",'cityText')
+						.attr("x",20)
+						.attr("y",50)
+						.text(function(d){
+							var url4 = "https://free-api.heweather.com/v5/weather?city=" + d.name + "&lang=en&key=30bf677462bf41d885c80587bfbee7db";
+							$.get(url4, function( data ) {
+  								getCityInfo(data);
+							});
+						});
+					}
+
+				});
+
+				function getCityInfo(data){
+					var cityStr = "<b>Basic Information:</b></br>";
+					var basic = data['HeWeather5'][0]['basic'];
+					//console.log(basic);
+					$.map(basic, function(value, index) {
+						if(index != 'update' && index != 'id' && index != 'cnty'){
+							cityStr += index + ": " + value + "</br>";
+						}
+					});
+					//console.log(cityStr);
+					cityStr += "</br><b>Daily forecast:</b></br>";
+					var daily = data['HeWeather5'][0]['daily_forecast'];
+					$.map(daily, function(value, index) {
+						var curObj = value;
+						//console.log(curObj);
+							cityStr += curObj['date'] + ':</br>';
+							$.map(curObj, function(value, index) {
+								if(index == 'cond'){
+									cityStr += 'Condition:' + value['txt_d'] + '</br>';
+								}
+								if(index == 'tmp'){
+									cityStr += 'Temperature:' + value['min'] + '-' + value['max'] + '(celsius)</br>';
+								}
+								if(index == 'wind'){
+									cityStr += 'Wind:' + value['dir'] + ' ' + value['sc'] + '</br>';
+								}
+								 
+							});
+							cityStr += "</br>";
+					});
+					$("#cityInfo").html(cityStr);
+
+				}
+
+	}
+	
+</script>
+</body>
+</html>
