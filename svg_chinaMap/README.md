@@ -1,4 +1,4 @@
-# Jquery, Highchart.js, Html, CSS, SVG, Ajax
+# D3.js, Highchart.js, Html, CSS, SVG, Ajax
 
 
 Live demo: 
