@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>XinYue Liu - Assgt1</title>
+	<style type="text/css"> 
+	 input[type="radio"] {
+  		  display: none;
+	 }
+
+	 #background {
+  		width: 1000px;
+  		height: 669px;
+  		background-image: url(http://www-scf.usc.edu/~liuxinyu/CampusProject/bg.jpg);
+	 }
+
+	 #game {
+  		margin-left: 60px;
+  /*margin-top: 50px;*/
+	 }
+
+	 div .basket {
+  		float: left;
+  		display: inline;
+  		margin-right: 5px;
+	 }
+  
+    div .bas {
+      width: 171px; 
+      height: 119px;
+    }
+
+    div .bas:hover {
+      cursor: pointer;
+    }
+
+    div .bas img {
+      margin-left: 20px;
+      display: inline;
+    }
+
+    label {
+      cursor: pointer;
+    }
+
+    .num{
+      margin-top:  5%;
+      margin-left: 40%;
+      cursor: pointer;
+    }
+
+    .num:hover {
+      cursor: pointer;
+    }
+
+    #note {
+      vertical-align: text-bottom;
+    }
+
+  </style>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+<div id="background">
+  <img id="plotImg" src="http://www-scf.usc.edu/~liuxinyu/CampusProject/rule1.png">
+  <div id="game" style="display:none; width:90%">
+    <img src="http://www-scf.usc.edu/~liuxinyu/CampusProject/pickFruit.png">
+    <div id="fruit">
+      <label name="peach">
+        <input type="radio" name="fruit" /><img alt='f' src="http://www-scf.usc.edu/~liuxinyu/CampusProject/peach.png"></label>
+      <label name="strawberry">
+        <input type="radio" name="fruit" /><img alt='f' src="http://www-scf.usc.edu/~liuxinyu/CampusProject/strawberry.png"></label>
+      <label name="watermelon">
+        <input type="radio" name="fruit" /><img alt='f' src="http://www-scf.usc.edu/~liuxinyu/CampusProject/watermelon.png"></label>
+      <label name="grape">
+        <input type="radio" name="fruit" /><img alt='f' src="http://www-scf.usc.edu/~liuxinyu/CampusProject/grape.png"></label>
+      <label name="apple">
+        <input type="radio" name="fruit" /><img alt='f' src="http://www-scf.usc.edu/~liuxinyu/CampusProject/apple.png"></label>
+      <label name="banana">
+        <input type="radio" name="fruit" /><img alt='f' src="http://www-scf.usc.edu/~liuxinyu/CampusProject/banana.png"></label>
+    </div>
+    <img src="http://www-scf.usc.edu/~liuxinyu/CampusProject/pickVeg.png">
+    <div id="vegetable" style="margin-left: 120px;">
+     <label name="carrot">
+      <input type="radio" name="vegetable" /><img alt='v' src="http://www-scf.usc.edu/~liuxinyu/CampusProject/carrot.png"></label>
+      <label name="cucumber">
+        <input type="radio" name="vegetable" /><img alt='v' src="http://www-scf.usc.edu/~liuxinyu/CampusProject/cucumber.png"></label>
+      <label name="radish">
+        <input type="radio" name="vegetable" /><img alt='v' src="http://www-scf.usc.edu/~liuxinyu/CampusProject/radish.png"></label>
+      <label name="lettuce">
+        <input type="radio" name="vegetable" /><img alt='v' src="http://www-scf.usc.edu/~liuxinyu/CampusProject/lettuce.png"></label>
+    </div>
+    <img src="http://www-scf.usc.edu/~liuxinyu/CampusProject/pickBas.png">
+
+    <div class="basketWrapper">
+      <div class="basket">
+        <div class="bas" style="background-image: url(http://www-scf.usc.edu/~liuxinyu/CampusProject/blueBas.png);">
+          <img src="">
+          <img src="">
+        </div>
+        <div>
+          <img id="1" class="num" src="http://www-scf.usc.edu/~liuxinyu/CampusProject/1.png">
+        </div>
+      </div>
+      <div class="basket">
+        <div class="bas" style="background-image: url(http://www-scf.usc.edu/~liuxinyu/CampusProject/redBas.png);">
+          <img src="">
+          <img src="">
+        </div>
+        <div>
+          <img id="2" class="num" src="http://www-scf.usc.edu/~liuxinyu/CampusProject/2.png">
+        </div>
+      </div>
+      <div class="basket">
+        <div class="bas" style="background-image: url(http://www-scf.usc.edu/~liuxinyu/CampusProject/greenBas.png);">
+          <img src="">
+          <img src="">
+        </div>
+        <div>
+          <img id="3" class="num" src="http://www-scf.usc.edu/~liuxinyu/CampusProject/3.png">
+        </div>
+      </div>
+      <div class="basket">
+        <div class="bas" style="background-image: url(http://www-scf.usc.edu/~liuxinyu/CampusProject/purpleBas.png);">
+          <img src="">
+          <img src="">
+        </div>
+        <div>
+          <img id="4" class="num" src="http://www-scf.usc.edu/~liuxinyu/CampusProject/4.png">
+        </div>
+      </div>
+      <div class="basket">
+        <div class="bas" style="background-image: url(http://www-scf.usc.edu/~liuxinyu/CampusProject/yellowBas.png);">
+          <img src="">
+          <img src="">
+        </div>
+        <div>
+          <img id="5" class="num" src="http://www-scf.usc.edu/~liuxinyu/CampusProject/5.png">
+        </div>
+      </div>
+    </div>
+    <img src="http://www-scf.usc.edu/~liuxinyu/CampusProject/changeNum.png" style="margin-top: 5px; margin-left: 30%">
+    <img id="note" src="">
+  </div>
+</div>
+<script type="text/javascript">
+  var plot = 2;
+  var flag = false;
+
+  d3.select(window).on('click', clickWindow);
+  function clickWindow() {
+    if (plot < 6) {
+      var imgN = "http://www-scf.usc.edu/~liuxinyu/CampusProject/" + "rule" + plot + ".png";
+      d3.select('#plotImg').attr('src', imgN);
+      plot++;
+    } else {
+      if (!flag) {
+        flag = true;
+        if (localStorage.fruit) {
+          localStorage.removeItem("fruit");
+        }
+        if (localStorage.vegetable) {
+          localStorage.removeItem("vegetable");
+        }
+        d3.select('#background').style('background', 'url(http://www-scf.usc.edu/~liuxinyu/CampusProject/bg2.jpg)');
+        d3.select('#plotImg').style('display', 'none');
+        d3.select('#game').style('display', '');
+
+      }
+    }
+
+  }
+
+  d3.select("#fruit").on('click', pickFruit);
+  function pickFruit(){
+    if(d3.event.target.nodeName == 'INPUT'){
+        d3.selectAll("img[alt='f']").style('opacity','1');
+        d3.select(d3.event.target.parentNode.childNodes[2]).style('opacity','0.6');
+        if (localStorage.fruit) {
+          localStorage.removeItem("fruit");
+            localStorage.fruit = d3.event.target.parentNode.getAttribute("name");
+        } else {
+            localStorage.fruit = d3.event.target.parentNode.getAttribute("name");
+        }
+      }
+  }
+
+  d3.select("#vegetable").on('click', pickVege);
+  function pickVege(){
+    if(d3.event.target.nodeName == 'INPUT'){
+        d3.selectAll("img[alt='v']").style('opacity','1');
+        d3.select(d3.event.target.parentNode.childNodes[2]).style('opacity','0.6');
+        if (localStorage.vegetable) {
+          localStorage.removeItem("vegetable");
+            localStorage.vegetable = d3.event.target.parentNode.getAttribute("name");
+        } else {
+            localStorage.vegetable = d3.event.target.parentNode.getAttribute("name");
+        }
+      }
+  }
+
+  d3.selectAll(".bas").on('click',pickBasket);
+  function pickBasket(){
+    var ele = this.childNodes;
+    d3.selectAll("img[alt='f']").style('opacity','1');
+    d3.selectAll("img[alt='v']").style('opacity','1');
+    if (localStorage.fruit) {
+          var url1 = 'http://www-scf.usc.edu/~liuxinyu/CampusProject/' +  localStorage.fruit + 's.png';
+          d3.select(ele[1]).attr('src', url1);
+          localStorage.removeItem("fruit");
+      }
+    if (localStorage.vegetable) {
+          var url2 = 'http://www-scf.usc.edu/~liuxinyu/CampusProject/' +  localStorage.vegetable + 's.png';
+          d3.select(ele[3]).attr('src', url2);
+          localStorage.removeItem("vegetable");
+      }
+  }
+
+  d3.selectAll(".num").on('click',numBasket);
+  function numBasket(){
+    var txt;
+    var regex = /^[1-5]$/;
+    var num = prompt("Please number this basket from 1 to 5:", "1");
+    if(!regex.test(num)){
+          alert("Please input a number from 1 to 5.");
+          return;
+    }
+    var url3 = 'http://www-scf.usc.edu/~liuxinyu/CampusProject/' + num + '.png';
+    d3.select(this).attr('src',url3);
+    checkUnique();
+  }
+
+  function checkUnique(){
+    var num1 = d3.selectAll("img[src='http://www-scf.usc.edu/~liuxinyu/CampusProject/1.png']");
+    var num2 = d3.selectAll("img[src='http://www-scf.usc.edu/~liuxinyu/CampusProject/2.png']");
+    var num3 = d3.selectAll("img[src='http://www-scf.usc.edu/~liuxinyu/CampusProject/3.png']");
+    var num4 = d3.selectAll("img[src='http://www-scf.usc.edu/~liuxinyu/CampusProject/4.png']");
+    var num5 = d3.selectAll("img[src='http://www-scf.usc.edu/~liuxinyu/CampusProject/5.png']");
+    if(num1.size() > 1 || num2.size() > 1 || num3.size() > 1 || num4.size() > 1 || num5.size() > 1){
+        d3.select('#note').attr('src','http://www-scf.usc.edu/~liuxinyu/CampusProject/caution.png');
+    }else{
+
+        d3.select('#note').attr('src','');
+    }
+  }
+</script>
+</body>
+</html>

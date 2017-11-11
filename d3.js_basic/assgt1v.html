@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>assignment 1</title>
+	<style type="text/css">
+		input[type="radio"]{
+			display: none;
+		}
+		#background{
+			width: 1000px;
+			height: 669px;
+			background-image: url(bg.jpg);
+		}
+		#game{
+			margin-left: 50px;
+			/*margin-top: 50px;*/
+		}
+		div .basket{
+			float: left;
+			display: inline;
+			margin-right: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div id="background">
+		<img id="plotImg" src="rule1.png">
+		<div id="game" style="display:none; width:90%">
+			<img src="pickFruit.png">
+			<div id="fruit" onclick="selectFruit()">
+				<label name="peach"><input type="radio" value="" /><img src="peach.png"></label>
+				<label name="strawberry"><input type="radio" value="" /><img src="strawberry.png"></label>
+				<label name="watermelon"><input type="radio" value="" /><img src="watermelon.png"></label>
+				<label name="grape"><input type="radio" value="" /><img src="grape.png"></label>
+				<label name="apple"><input type="radio" value="" /><img src="apple.png"></label>
+				<label name="banana"><input type="radio" value="" /><img src="banana.png"></label>
+			</div>
+			<img src="pickVeg.png">
+			<div id="vegetable" onclick="selectVegetable()" style="margin-left: 120px;">
+				<label name="carrot"><input type="radio" value="" /><img src="carrot.png"></label>
+				<label name="cucumber"><input type="radio" value="" /><img src="cucumber.png"></label>
+				<label name="radish"><input type="radio" value="" /><img src="radish.png"></label>
+				<label name="lettuce"><input type="radio" value="" /><img src="lettuce.png"></label>
+			</div>
+			<img src="pickBas.png">
+			
+			<div>
+			<div id="test">Test1:</div>
+			<div id="test2">Test2:</div>
+			<div class="basket">
+				<img alt="fruit" src="">
+				<img alt="vegetable" src="">
+				<img class="bas" alt="basket" src="blueBas.png">
+				<div><p>basket1</p></div>
+			</div>
+			<div class="basket">
+				<img alt="fruit" src="">
+				<img alt="vegetable" src="">
+				<button id="basket2">empty</button>
+				<img class="bas" alt="basket" src="redBas.png">
+				<p>basket1</p>
+			</div>
+			<div class="basket">
+				<img alt="fruit" src="">
+				<img alt="vegetable" src="">
+				<button id="basket3">empty</button>
+				<img class="bas" alt="basket" src="greenBas.png">
+				<p>basket3</p>
+			</div>
+			<div class="basket">
+				<img alt="fruit" src="">
+				<img alt="vegetable" src="">
+				<button id="basket4">empty</button>
+				<img class="bas" alt="basket" src="purpleBas.png">
+				<p>basket4</p>
+			</div>
+			<div class="basket">
+				<img alt="fruit" src="">
+				<img alt="vegetable" src="">
+				<button id="basket5">empty</button>
+				<img class="bas" alt="basket" src="yellowBas.png">
+				<p>basket5</p>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<script type="text/javascript">
+		var plot = 2;
+		var flag = false;
+		window.onclick = function(){
+			if(plot < 6){
+				console.log(plot);
+				var imgN = "rule" + plot + ".png";
+				document.getElementById("plotImg").src = imgN;
+				plot++;
+
+			}else{
+				if(!flag){
+					document.getElementById("background").style.background = "url(bg2.jpg)";
+					document.getElementById("plotImg").style.display = "none";
+					document.getElementById("game").style.display = "";
+					flag = true;
+				}
+			}
+			
+		}
+		var fruit = document.getElementById("fruit");
+		fruit.onclick = function(event){
+			if(event.target.nodeName == 'INPUT'){
+				if (localStorage.fruit) {
+					localStorage.removeItem("fruit");
+    				localStorage.fruit = event.target.parentNode.getAttribute("name");
+				} else {
+    				localStorage.fruit = event.target.parentNode.getAttribute("name");
+				}
+				document.getElementById("test").innerHTML += localStorage.fruit;
+
+			}
+			
+		}
+
+		var vegetable = document.getElementById("vegetable");
+		vegetable.onclick = function(event){
+			if(event.target.nodeName == 'INPUT'){
+				if (localStorage.vegetable) {
+					localStorage.removeItem("vegetable");
+    				localStorage.vegetable = event.target.parentNode.getAttribute("name");
+				} else {
+    				localStorage.vegetable = event.target.parentNode.getAttribute("name");
+				}
+				document.getElementById("test2").innerHTML += localStorage.vegetable;
+
+			}
+			
+		}
+
+		var buttons = document.getElementsByTagName("button");
+		for (var i = 0; i < buttons.length; i++) {
+			buttons[i].onclick = function (num) {
+				return function(){
+					console.log(num);
+
+					var regex1 = /^(peach|strawberry|watermelon|grape|apple|banana)\s(carrot|cucumber|radish|lettuce)\s$/;
+					var regex2 = /^(carrot|cucumber|radish|lettuce)\s(peach|strawberry|watemelon|grape|apple|banana)\s$/;
+					var regex3 = /^(peach|strawberry|watermelon|grape|apple|banana)\s$/;
+					var regex4 = /^(carrot|cucumber|radish|lettuce)\s$/;
+					//console.log(regex1.test("peach") || regex2.test("carrot apple"));
+					var currCargo = buttons[num].innerHTML;
+					console.log(currCargo);
+					console.log(regex1.test(currCargo));
+					console.log(regex2.test(currCargo));
+					console.log(regex1.test("apple cucumber"));
+					console.log(regex2.test("cucumber apple"));
+					if(regex1.test(currCargo) || regex2.test(currCargo)){
+						buttons[num].innerHTML = "empty";
+					}
+					if (localStorage.fruit) {
+    					if(buttons[num].innerHTML != "empty"){
+    						if(regex3.test(currCargo)){
+    							buttons[num].innerHTML = localStorage.fruit + " ";
+    						}else{
+    							buttons[num].innerHTML += localStorage.fruit + " ";
+    						}
+    					}else{
+    						buttons[num].innerHTML = localStorage.fruit + " ";
+    					}
+						localStorage.removeItem("fruit");
+					}
+					if (localStorage.vegetable) {
+						if(buttons[num].innerHTML != "empty"){
+    						if(regex4.test(currCargo)){
+    							buttons[num].innerHTML = localStorage.vegetable + " ";
+    						}else{
+    							buttons[num].innerHTML += localStorage.vegetable + " ";
+    						}
+    					}else{
+    						buttons[num].innerHTML = localStorage.vegetable + " ";
+    					}
+						localStorage.removeItem("vegetable");
+					}
+
+					
+					
+				
+				}
+  			}(i);
+  		//	console.log(text);
+  		}
+
+  		var imgs = document.getElementsByClassName("bas");
+		for (var i = 0; i < imgs.length; i++) {
+			imgs[i].onclick = function (num) {
+				return function(){
+					console.log(num);
+
+					var regex1 = /^(peach|strawberry|watermelon|grape|apple|banana)\s(carrot|cucumber|radish|lettuce)\s$/;
+					var regex2 = /^(carrot|cucumber|radish|lettuce)\s(peach|strawberry|watemelon|grape|apple|banana)\s$/;
+					var regex3 = /^(peach|strawberry|watermelon|grape|apple|banana)\s$/;
+					var regex4 = /^(carrot|cucumber|radish|lettuce)\s$/;
+					//console.log(regex1.test("peach") || regex2.test("carrot apple"));
+					var baskets = imgs[num].parentNode;
+					var ele = baskets.childNodes;
+					console.log(ele);
+					console.log(ele.length);
+					var count = 0;
+					for(var j=0; j<ele.length; j++){
+						console.log(ele[j].nodeName);
+						if(ele[j].nodeName == 'IMG'){
+							count++;
+						} 
+					}
+					console.log(count);
+					if(count == 3){
+						for(j=0; j<ele.length; j++){
+							console.log(ele[j].nodeName);
+							if(ele[j].nodeName == 'IMG' && ele[j].alt != ""){
+								ele[j].src = "";
+							} 
+						}
+					}
+					if (localStorage.fruit) {
+
+					}
+				// 	if (localStorage.fruit) {
+    // 					if(ele.length > 0){
+    // 						if(regex3.test(currCargo)){
+    // 							buttons[num].innerHTML = localStorage.fruit + " ";
+    // 						}else{
+    // 							buttons[num].innerHTML += localStorage.fruit + " ";
+    // 						}
+    // 					}else{
+    // 						buttons[num].innerHTML = localStorage.fruit + " ";
+    // 					}
+				// 		localStorage.removeItem("fruit");
+				// 	}
+				// 	if (localStorage.vegetable) {
+				// 		if(buttons[num].innerHTML != "empty"){
+    // 						if(regex4.test(currCargo)){
+    // 							buttons[num].innerHTML = localStorage.vegetable + " ";
+    // 						}else{
+    // 							buttons[num].innerHTML += localStorage.vegetable + " ";
+    // 						}
+    // 					}else{
+    // 						buttons[num].innerHTML = localStorage.vegetable + " ";
+    // 					}
+				// 		localStorage.removeItem("vegetable");
+				// 	}
+
+					
+					
+				
+				}
+  			}(i);
+  		//	console.log(text);
+  		}
+
+	</script>
+</body>
+</html>
