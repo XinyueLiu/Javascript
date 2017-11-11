@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Proposal Demo</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/highcharts.js"></script>
+	<script src="http://code.highcharts.com/maps/modules/map.js"></script>
+	<script src="https://code.highcharts.com/highcharts-more.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/maps/modules/data.js"></script>
+	<script src="https://code.highcharts.com/maps/modules/drilldown.js"></script>
+	<script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/chartLayout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+    <link rel="stylesheet" type="text/css" href="css/bootsnav.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-labelauty.css" />
+</head>
+<body>
+	<div id="mainwrapper">
+        <div id="first_line">
+            <div class="fl" id="allstate_map" style="height: 500px; min-width: 310px; max-width: 800px;"></div>
+    		<div class="fl" id="allstate_barchar"></div>
+        </div>
+        <!-- <div class="btn-group" id="state_buttons">
+            <button type="button" class="btn">All State</button>
+            <button type="button" class="btn btn-default">AL</button>
+            <button type="button" class="btn btn-primary">AR</button>
+            <button type="button" class="btn btn-success">AZ</button>
+            <button type="button" class="btn btn-info">CA</button>
+            <button type="button" class="btn btn-warning">CO</button>
+            <button type="button" class="btn btn-danger">CT</button>
+            <button type="button" class="btn btn-default">DC</button>
+            <button type="button" class="btn btn-primary">DE</button>
+            <button type="button" class="btn btn-success">FL</button>
+            <button type="button" class="btn btn-info">GA</button>
+            <button type="button" class="btn btn-warning">IA</button>
+            <button type="button" class="btn btn-danger">ID</button>
+            <button type="button" class="btn btn-default">IL</button>
+            <button type="button" class="btn btn-primary">IN</button>
+            <button type="button" class="btn btn-success">KS</button>
+            <button type="button" class="btn btn-info">KY</button>
+            <button type="button" class="btn btn-warning">LA</button>
+            <button type="button" class="btn btn-danger">MA</button>
+            <button type="button" class="btn btn-default">MD</button>
+            <button type="button" class="btn btn-primary">ME</button>
+            <button type="button" class="btn btn-success">MI</button>
+            <button type="button" class="btn btn-info">MN</button>
+            <button type="button" class="btn btn-warning">MO</button>
+            <button type="button" class="btn btn-danger">MS</button>
+            <button type="button" class="btn btn-default">MT</button>
+            <button type="button" class="btn btn-primary">NC</button>
+            <button type="button" class="btn btn-success">ND</button>
+            <button type="button" class="btn btn-info">NE</button>
+            <button type="button" class="btn btn-warning">NH</button>
+            <button type="button" class="btn btn-danger">NJ</button>
+            <button type="button" class="btn btn-default">NM</button>
+            <button type="button" class="btn btn-primary">NV</button>
+            <button type="button" class="btn btn-success">NY</button>
+            <button type="button" class="btn btn-info">OH</button>
+            <button type="button" class="btn btn-warning">OK</button>
+            <button type="button" class="btn btn-danger">OR</button>
+            <button type="button" class="btn btn-default">PA</button>
+            <button type="button" class="btn btn-primary">RI</button>
+            <button type="button" class="btn btn-success">SC</button>
+            <button type="button" class="btn btn-info">SD</button>
+            <button type="button" class="btn btn-warning">TN</button>
+            <button type="button" class="btn btn-danger">TX</button>
+            <button type="button" class="btn btn-default">UT</button>
+            <button type="button" class="btn btn-primary">VA</button>
+            <button type="button" class="btn btn-success">VT</button>
+            <button type="button" class="btn btn-info">WA</button>
+            <button type="button" class="btn btn-warning">WI</button>
+            <button type="button" class="btn btn-danger">WV</button>
+            <button type="button" class="btn btn-default">WY</button>
+        </div> -->
+<!--         <div class="second_line">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-default navbar-mobile bootsnav">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar-menu">
+                            <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shortcodes</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Custom Menu</a></li>
+                                        <li><a href="#">Custom Menu</a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Sub Menu</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Custom Menu</a></li>
+                                                <li><a href="#">Custom Menu</a></li>
+                                                <li><a href="#">Custom Menu</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Custom Menu</a></li>
+                                        <li><a href="#">Custom Menu</a></li>
+                                        <li><a href="#">Custom Menu</a></li>
+                                        <li><a href="#">Custom Menu</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Custom Menu</a></li>
+                                        <li><a href="#">Custom Menu</a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Custom Menu</a></li>
+                                                <li><a href="#">Custom Menu</a></li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                                    <ul class="dropdown-menu multi-dropdown">
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Custom Menu</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Custom Menu</a></li>
+                                        <li><a href="#">Custom Menu</a></li>
+                                        <li><a href="#">Custom Menu</a></li>
+                                        <li><a href="#">Custom Menu</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div> -->
+        <div class="panel panel-primary" id="second_line">
+            <div class="panel-heading">Generate Secondary Chart</div>
+            <div class="panel-body">
+                <p>States:</p>
+                <ul class="dowebok">
+                    <li><input type="radio" name="radio" data-labelauty="   AL  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   AR  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   AZ  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   CA  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   CO  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   CT  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   DC  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   DE  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   FL  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   GA  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   IA  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   ID  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   IL  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   IN  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   KS  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   KY  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   LA  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   MA  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   MD  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   ME  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   MI  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   MN  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   MO  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   MS  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   MT  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   NC  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   ND  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   NE  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   NH  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   NJ  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   NM  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   NV  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   NY  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   OH  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   OK  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   OR  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   PA  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   RI  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   SC  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   SD  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   TN  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   TX  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   UT  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   VA  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   VT  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   WA  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   WI  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   WV  "></li>
+                    <li><input type="radio" name="radio" data-labelauty="   WY  "></li>
+                    <!-- <li><input type="radio" name="radio" disabled data-labelauty="disabled"></li> -->
+                </ul>
+                <p>Properties:</p>
+                <ul class="dowebok">
+                    <!-- <li><input type="checkbox" name="checkbox" disabled checked data-labelauty="HTML"></li> -->
+                    <li><input type="checkbox" name="checkbox" data-labelauty="Gender"></li>
+                    <li><input type="checkbox" name="checkbox" data-labelauty="Age"></li>
+                    <li><input type="checkbox" name="checkbox" data-labelauty="Race"></li>
+                    <li><input type="checkbox" name="checkbox" data-labelauty="Proportions"></li>
+                    
+                </ul>
+            </div>
+        </div>
+<script src="js/barChart_all_state.js"></script>
+<script src="js/mapChart_all_state.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootsnav.js"></script>
+<script type="text/javascript" src="js/jquery-labelauty.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $(':input').labelauty();
+    });
+</script>
+</body>
+</html>

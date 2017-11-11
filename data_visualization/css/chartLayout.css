@@ -1,0 +1,39 @@
+
+ul{list-style-type: none;}
+li{display: inline-block;}
+li{margin: 10px 0;}
+
+
+.fl {
+	float: left;
+	display: inline;
+}
+
+#first_line {
+	width: 100%;
+	height: 600px;
+}
+
+#second_line {
+	margin-left: 1%;
+	width: 30%;
+}
+
+#allstate_map {
+	margin-right: 5%;    
+    margin-left: 1%;
+    margin-top: 3%;
+    width: 45%;
+}
+
+#allstate_barchar {
+    margin-top: 3%;
+	width: 45%;
+}
+
+#state_buttons {
+	margin-left: 5%;
+	width: 80%;
+	align-content: center;
+
+}

@@ -1,0 +1,3530 @@
+[
+  {
+    "id": 1,
+    "state_abb": "AL",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.435495355692614,
+    "scores": 0.0181973319250878
+  },
+  {
+    "id": 2,
+    "state_abb": "AZ",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.292810415511768,
+    "scores": 0.0147094939972972
+  },
+  {
+    "id": 3,
+    "state_abb": "AR",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.451648421044555,
+    "scores": 3.38564704979934
+  },
+  {
+    "id": 4,
+    "state_abb": "CA",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0580311241425399,
+    "scores": 0.938621360573574
+  },
+  {
+    "id": 5,
+    "state_abb": "CO",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0554864345631888,
+    "scores": 2.81018849957814
+  },
+  {
+    "id": 6,
+    "state_abb": "CT",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.275935539520628,
+    "scores": 2.00709563928248
+  },
+  {
+    "id": 7,
+    "state_abb": "DE",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.220855885647968,
+    "scores": 0.8364755961843
+  },
+  {
+    "id": 8,
+    "state_abb": "DC",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.216855361596443,
+    "scores": 6.25568670271434
+  },
+  {
+    "id": 9,
+    "state_abb": "FL",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0779264886502794,
+    "scores": 4.4490815522084
+  },
+  {
+    "id": 10,
+    "state_abb": "GA",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0895495737793,
+    "scores": 2.07821849273288
+  },
+  {
+    "id": 11,
+    "state_abb": "ID",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0125586893161849,
+    "scores": 6.0727230043375
+  },
+  {
+    "id": 12,
+    "state_abb": "IL",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.172974210455274,
+    "scores": 1.10953907180091
+  },
+  {
+    "id": 13,
+    "state_abb": "IN",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0119303120849392,
+    "scores": 2.88000079929811
+  },
+  {
+    "id": 14,
+    "state_abb": "IA",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.350682187008162,
+    "scores": 3.81232941682978
+  },
+  {
+    "id": 15,
+    "state_abb": "KS",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.149975113304077,
+    "scores": 3.54209860874014
+  },
+  {
+    "id": 16,
+    "state_abb": "KY",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.161839215594887,
+    "scores": 1.0974420904035
+  },
+  {
+    "id": 17,
+    "state_abb": "LA",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0990641820683608,
+    "scores": 4.90238857852751
+  },
+  {
+    "id": 18,
+    "state_abb": "ME",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.108223458523831,
+    "scores": 3.10469400036187
+  },
+  {
+    "id": 19,
+    "state_abb": "MD",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.202195380029847,
+    "scores": 3.43615589482034
+  },
+  {
+    "id": 20,
+    "state_abb": "MA",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.116366249554999,
+    "scores": 2.570418298993
+  },
+  {
+    "id": 21,
+    "state_abb": "MI",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.00905048317707764,
+    "scores": 2.59196320588118
+  },
+  {
+    "id": 22,
+    "state_abb": "MN",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.050841816109935,
+    "scores": 2.59097612670438
+  },
+  {
+    "id": 23,
+    "state_abb": "MS",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.295609075269718,
+    "scores": 0.758341113024734
+  },
+  {
+    "id": 24,
+    "state_abb": "MO",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.159301781161349,
+    "scores": 3.82032786226706
+  },
+  {
+    "id": 25,
+    "state_abb": "MT",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0462761564457697,
+    "scores": 4.13583694244748
+  },
+  {
+    "id": 26,
+    "state_abb": "NE",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.310284226615054,
+    "scores": 3.46294039554687
+  },
+  {
+    "id": 27,
+    "state_abb": "NV",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0382096989380008,
+    "scores": 1.14285474924952
+  },
+  {
+    "id": 28,
+    "state_abb": "NH",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0568403818992142,
+    "scores": 2.61815519536438
+  },
+  {
+    "id": 29,
+    "state_abb": "NJ",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.109301367140085,
+    "scores": 1.13274031942355
+  },
+  {
+    "id": 30,
+    "state_abb": "NM",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.25271682888751,
+    "scores": -0.10145170360336
+  },
+  {
+    "id": 31,
+    "state_abb": "NY",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.445995174488591,
+    "scores": 4.80547793700985
+  },
+  {
+    "id": 32,
+    "state_abb": "NC",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0580845694535911,
+    "scores": 2.26037968506637
+  },
+  {
+    "id": 33,
+    "state_abb": "ND",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.221907173993503,
+    "scores": 4.76878626623957
+  },
+  {
+    "id": 34,
+    "state_abb": "OH",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.374449436166619,
+    "scores": 3.27623582564012
+  },
+  {
+    "id": 35,
+    "state_abb": "OK",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.200046435427804,
+    "scores": 1.37158409187001
+  },
+  {
+    "id": 36,
+    "state_abb": "OR",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.00110853731229732,
+    "scores": 1.71639675397368
+  },
+  {
+    "id": 37,
+    "state_abb": "PA",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.00276266456434715,
+    "scores": 5.16631425937774
+  },
+  {
+    "id": 38,
+    "state_abb": "RI",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.036711181628229,
+    "scores": 5.44180780549848
+  },
+  {
+    "id": 39,
+    "state_abb": "SC",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.102174336883414,
+    "scores": 1.05649965462458
+  },
+  {
+    "id": 40,
+    "state_abb": "SD",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0498184594171042,
+    "scores": 0.708620036589785
+  },
+  {
+    "id": 41,
+    "state_abb": "TN",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0598683345801992,
+    "scores": 2.77116331157003
+  },
+  {
+    "id": 42,
+    "state_abb": "TX",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0240304419277272,
+    "scores": 4.7355219597324
+  },
+  {
+    "id": 43,
+    "state_abb": "UT",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0362677688763184,
+    "scores": 4.94236597643221
+  },
+  {
+    "id": 44,
+    "state_abb": "VT",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.220018790620798,
+    "scores": 4.92345545480496
+  },
+  {
+    "id": 45,
+    "state_abb": "VA",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0496449319542835,
+    "scores": 1.26390466964162
+  },
+  {
+    "id": 46,
+    "state_abb": "WA",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.120960335811455,
+    "scores": 2.2429330093559
+  },
+  {
+    "id": 47,
+    "state_abb": "WV",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.235523248576337,
+    "scores": 2.74638682981603
+  },
+  {
+    "id": 48,
+    "state_abb": "WI",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0496343923625801,
+    "scores": 4.8613962782077
+  },
+  {
+    "id": 49,
+    "state_abb": "WY",
+    "sex": 0,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0922300920884261,
+    "scores": 3.71507956588381
+  },
+  {
+    "id": 50,
+    "state_abb": "AL",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.103313678778113,
+    "scores": 0.0828653366614568
+  },
+  {
+    "id": 51,
+    "state_abb": "AZ",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0766480829353812,
+    "scores": 0.0839955587132989
+  },
+  {
+    "id": 52,
+    "state_abb": "AR",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0737901923252604,
+    "scores": 3.8210627411035
+  },
+  {
+    "id": 53,
+    "state_abb": "CA",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.148375944909644,
+    "scores": 1.33783007990614
+  },
+  {
+    "id": 54,
+    "state_abb": "CO",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0112544455454217,
+    "scores": 3.47442562075477
+  },
+  {
+    "id": 55,
+    "state_abb": "CT",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.00478257718513252,
+    "scores": 2.31826508565169
+  },
+  {
+    "id": 56,
+    "state_abb": "DE",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.153686870941703,
+    "scores": 1.19579876873362
+  },
+  {
+    "id": 57,
+    "state_abb": "DC",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0732617886317204,
+    "scores": 6.07909153793022
+  },
+  {
+    "id": 58,
+    "state_abb": "FL",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0399510194677436,
+    "scores": 4.00911347501709
+  },
+  {
+    "id": 59,
+    "state_abb": "GA",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.351535934043735,
+    "scores": 2.04911780593468
+  },
+  {
+    "id": 60,
+    "state_abb": "ID",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.215044336066555,
+    "scores": 6.22654064717275
+  },
+  {
+    "id": 61,
+    "state_abb": "IL",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0719452138360516,
+    "scores": 1.32488064048186
+  },
+  {
+    "id": 62,
+    "state_abb": "IN",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0854636812969116,
+    "scores": 3.30320010160895
+  },
+  {
+    "id": 63,
+    "state_abb": "IA",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.062508643500398,
+    "scores": 3.75453193843257
+  },
+  {
+    "id": 64,
+    "state_abb": "KS",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.125843152461016,
+    "scores": 3.76095768838212
+  },
+  {
+    "id": 65,
+    "state_abb": "KY",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0842970195076532,
+    "scores": 1.45591274055271
+  },
+  {
+    "id": 66,
+    "state_abb": "LA",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0234101512693288,
+    "scores": 4.70240957679386
+  },
+  {
+    "id": 67,
+    "state_abb": "ME",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0952605940922244,
+    "scores": 3.29407814964052
+  },
+  {
+    "id": 68,
+    "state_abb": "MD",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.340960857740767,
+    "scores": 3.81181717638606
+  },
+  {
+    "id": 69,
+    "state_abb": "MA",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.161812092066277,
+    "scores": 2.79798415002052
+  },
+  {
+    "id": 70,
+    "state_abb": "MI",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0335769545447774,
+    "scores": 2.52831685337297
+  },
+  {
+    "id": 71,
+    "state_abb": "MN",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.00307026864654487,
+    "scores": 3.61277706686441
+  },
+  {
+    "id": 72,
+    "state_abb": "MS",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.00206712364322638,
+    "scores": 0.577610423062057
+  },
+  {
+    "id": 73,
+    "state_abb": "MO",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0511777388574153,
+    "scores": 4.07986269087921
+  },
+  {
+    "id": 74,
+    "state_abb": "MT",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0997940236481543,
+    "scores": 4.9163883505819
+  },
+  {
+    "id": 75,
+    "state_abb": "NE",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0621064868920593,
+    "scores": 3.61506804133651
+  },
+  {
+    "id": 76,
+    "state_abb": "NV",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.183541756134903,
+    "scores": 1.11027484742873
+  },
+  {
+    "id": 77,
+    "state_abb": "NH",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0315049868336889,
+    "scores": 3.04663426380279
+  },
+  {
+    "id": 78,
+    "state_abb": "NJ",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0106873637833702,
+    "scores": 1.69850561488757
+  },
+  {
+    "id": 79,
+    "state_abb": "NM",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.199281430588225,
+    "scores": 0.129130125212121
+  },
+  {
+    "id": 80,
+    "state_abb": "NY",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0111136513255162,
+    "scores": 5.30743577600754
+  },
+  {
+    "id": 81,
+    "state_abb": "NC",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.107245003385578,
+    "scores": 2.08836366818179
+  },
+  {
+    "id": 82,
+    "state_abb": "ND",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0097192779982105,
+    "scores": 5.15059355487262
+  },
+  {
+    "id": 83,
+    "state_abb": "OH",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0726677064118173,
+    "scores": 3.30238311779767
+  },
+  {
+    "id": 84,
+    "state_abb": "OK",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.414534419415241,
+    "scores": 2.05210012599882
+  },
+  {
+    "id": 85,
+    "state_abb": "OR",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0487526213224033,
+    "scores": 1.89082705553627
+  },
+  {
+    "id": 86,
+    "state_abb": "PA",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.172773460032663,
+    "scores": 5.11580654413213
+  },
+  {
+    "id": 87,
+    "state_abb": "RI",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0918271967133811,
+    "scores": 5.67162225792677
+  },
+  {
+    "id": 88,
+    "state_abb": "SC",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.099174971215044,
+    "scores": 0.801955755526742
+  },
+  {
+    "id": 89,
+    "state_abb": "SD",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.480562796333234,
+    "scores": 0.230228303562206
+  },
+  {
+    "id": 90,
+    "state_abb": "TN",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.194704307478294,
+    "scores": 3.46088325207967
+  },
+  {
+    "id": 91,
+    "state_abb": "TX",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.102433938119428,
+    "scores": 5.31648397233789
+  },
+  {
+    "id": 92,
+    "state_abb": "UT",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0246299435701338,
+    "scores": 5.41547502716722
+  },
+  {
+    "id": 93,
+    "state_abb": "VT",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.169676537145123,
+    "scores": 5.53806951523373
+  },
+  {
+    "id": 94,
+    "state_abb": "VA",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.227068581344461,
+    "scores": 2.05683393739062
+  },
+  {
+    "id": 95,
+    "state_abb": "WA",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.0652132543671012,
+    "scores": 2.74276838252854
+  },
+  {
+    "id": 96,
+    "state_abb": "WV",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.122119994718733,
+    "scores": 2.68835436246924
+  },
+  {
+    "id": 97,
+    "state_abb": "WI",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.191499066177234,
+    "scores": 5.14618181735753
+  },
+  {
+    "id": 98,
+    "state_abb": "WY",
+    "sex": 1,
+    "age": 0,
+    "race": 0,
+    "proportions": 0.261626112213335,
+    "scores": 3.41749578082582
+  },
+  {
+    "id": 99,
+    "state_abb": "AL",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.153707004836954,
+    "scores": -0.347999875799079
+  },
+  {
+    "id": 100,
+    "state_abb": "AZ",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0505037142470626,
+    "scores": -0.503323474129004
+  },
+  {
+    "id": 101,
+    "state_abb": "AR",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0515258837887917,
+    "scores": 3.09834984888773
+  },
+  {
+    "id": 102,
+    "state_abb": "CA",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.366322630623237,
+    "scores": 1.1267819395308
+  },
+  {
+    "id": 103,
+    "state_abb": "CO",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.197585858900519,
+    "scores": 2.66083474118542
+  },
+  {
+    "id": 104,
+    "state_abb": "CT",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.149929915536752,
+    "scores": 2.02830907709404
+  },
+  {
+    "id": 105,
+    "state_abb": "DE",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0391612607896452,
+    "scores": 0.507860886914344
+  },
+  {
+    "id": 106,
+    "state_abb": "DC",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0891584320130519,
+    "scores": 5.49930149320059
+  },
+  {
+    "id": 107,
+    "state_abb": "FL",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.230786944618846,
+    "scores": 3.96179503856445
+  },
+  {
+    "id": 108,
+    "state_abb": "GA",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0472829504526358,
+    "scores": 0.979363695284254
+  },
+  {
+    "id": 109,
+    "state_abb": "ID",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0773587271557916,
+    "scores": 5.7943290127954
+  },
+  {
+    "id": 110,
+    "state_abb": "IL",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.131449100755452,
+    "scores": 0.958052612452269
+  },
+  {
+    "id": 111,
+    "state_abb": "IN",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.459609601565254,
+    "scores": 2.80643665842644
+  },
+  {
+    "id": 112,
+    "state_abb": "IA",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0189691388495216,
+    "scores": 3.11597009609845
+  },
+  {
+    "id": 113,
+    "state_abb": "KS",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0159415078272242,
+    "scores": 3.46235851927435
+  },
+  {
+    "id": 114,
+    "state_abb": "KY",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.15093507027895,
+    "scores": 1.17585695270948
+  },
+  {
+    "id": 115,
+    "state_abb": "LA",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0482907202228254,
+    "scores": 4.45503767650568
+  },
+  {
+    "id": 116,
+    "state_abb": "ME",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.00310889230896535,
+    "scores": 3.04869494325351
+  },
+  {
+    "id": 117,
+    "state_abb": "MD",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0848599130372939,
+    "scores": 3.55872024294327
+  },
+  {
+    "id": 118,
+    "state_abb": "MA",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0414242781570459,
+    "scores": 1.86927160199215
+  },
+  {
+    "id": 119,
+    "state_abb": "MI",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.200329095136173,
+    "scores": 1.88656515036903
+  },
+  {
+    "id": 120,
+    "state_abb": "MN",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0234218693629274,
+    "scores": 2.87981084940416
+  },
+  {
+    "id": 121,
+    "state_abb": "MS",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0718636945538971,
+    "scores": 0.161241753073939
+  },
+  {
+    "id": 122,
+    "state_abb": "MO",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0925485911059934,
+    "scores": 3.40127245071314
+  },
+  {
+    "id": 123,
+    "state_abb": "MT",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0290069696652017,
+    "scores": 3.89541744135694
+  },
+  {
+    "id": 124,
+    "state_abb": "NE",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.397565355993213,
+    "scores": 3.10232477211054
+  },
+  {
+    "id": 125,
+    "state_abb": "NV",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.126206319997719,
+    "scores": 0.968847217647064
+  },
+  {
+    "id": 126,
+    "state_abb": "NH",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.067963863577822,
+    "scores": 2.66013814804325
+  },
+  {
+    "id": 127,
+    "state_abb": "NJ",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.139166277186745,
+    "scores": 1.04412276315232
+  },
+  {
+    "id": 128,
+    "state_abb": "NM",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0688641021341923,
+    "scores": -0.469393010186609
+  },
+  {
+    "id": 129,
+    "state_abb": "NY",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.194311507320647,
+    "scores": 4.92693723830022
+  },
+  {
+    "id": 130,
+    "state_abb": "NC",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0100185368833204,
+    "scores": 1.59342441764305
+  },
+  {
+    "id": 131,
+    "state_abb": "ND",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0234255269172768,
+    "scores": 4.00035075378825
+  },
+  {
+    "id": 132,
+    "state_abb": "OH",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.00722599030792747,
+    "scores": 2.87869633396944
+  },
+  {
+    "id": 133,
+    "state_abb": "OK",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0643672474608982,
+    "scores": 1.15932405826246
+  },
+  {
+    "id": 134,
+    "state_abb": "OR",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.562079102536294,
+    "scores": 1.62871726964251
+  },
+  {
+    "id": 135,
+    "state_abb": "PA",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0291095219713183,
+    "scores": 4.78077889529541
+  },
+  {
+    "id": 136,
+    "state_abb": "RI",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.443876476022069,
+    "scores": 5.15626750254647
+  },
+  {
+    "id": 137,
+    "state_abb": "SC",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.014465204583352,
+    "scores": 0.31505193519273
+  },
+  {
+    "id": 138,
+    "state_abb": "SD",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.00582673409261009,
+    "scores": 0.423548351879356
+  },
+  {
+    "id": 139,
+    "state_abb": "TN",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.180528229973027,
+    "scores": 3.02046433104156
+  },
+  {
+    "id": 140,
+    "state_abb": "TX",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.141093214162989,
+    "scores": 4.60794736322581
+  },
+  {
+    "id": 141,
+    "state_abb": "UT",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.271376653778906,
+    "scores": 4.57873049547987
+  },
+  {
+    "id": 142,
+    "state_abb": "VT",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.078287114958658,
+    "scores": 4.50880696415398
+  },
+  {
+    "id": 143,
+    "state_abb": "VA",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0698137141228431,
+    "scores": 1.10802793107433
+  },
+  {
+    "id": 144,
+    "state_abb": "WA",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.267839302172842,
+    "scores": 1.95579832071309
+  },
+  {
+    "id": 145,
+    "state_abb": "WV",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.179007226460231,
+    "scores": 2.21825990238136
+  },
+  {
+    "id": 146,
+    "state_abb": "WI",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.148150580281486,
+    "scores": 4.61625811735331
+  },
+  {
+    "id": 147,
+    "state_abb": "WY",
+    "sex": 0,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0177230182960358,
+    "scores": 3.46447122256078
+  },
+  {
+    "id": 148,
+    "state_abb": "AL",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0166575273914058,
+    "scores": -0.230873510854144
+  },
+  {
+    "id": 149,
+    "state_abb": "AZ",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.212785062653688,
+    "scores": -0.130913766573047
+  },
+  {
+    "id": 150,
+    "state_abb": "AR",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0780333104338481,
+    "scores": 3.33819181064711
+  },
+  {
+    "id": 151,
+    "state_abb": "CA",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.101821435295203,
+    "scores": 1.38199348835531
+  },
+  {
+    "id": 152,
+    "state_abb": "CO",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0724037451137763,
+    "scores": 2.86623946209647
+  },
+  {
+    "id": 153,
+    "state_abb": "CT",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0625041382266349,
+    "scores": 1.84234047080648
+  },
+  {
+    "id": 154,
+    "state_abb": "DE",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0726740253508899,
+    "scores": 0.733227594412489
+  },
+  {
+    "id": 155,
+    "state_abb": "DC",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0201932764156884,
+    "scores": 6.10134147478536
+  },
+  {
+    "id": 156,
+    "state_abb": "FL",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.378035596669799,
+    "scores": 3.90990840110628
+  },
+  {
+    "id": 157,
+    "state_abb": "GA",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.175788662397495,
+    "scores": 1.87834168384471
+  },
+  {
+    "id": 158,
+    "state_abb": "ID",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.117988695943358,
+    "scores": 6.01322287665992
+  },
+  {
+    "id": 159,
+    "state_abb": "IL",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0210405855463203,
+    "scores": 1.43958575362936
+  },
+  {
+    "id": 160,
+    "state_abb": "IN",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0247029848175922,
+    "scores": 2.67929070434104
+  },
+  {
+    "id": 161,
+    "state_abb": "IA",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.13275374112059,
+    "scores": 3.33717158072547
+  },
+  {
+    "id": 162,
+    "state_abb": "KS",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.138396184857108,
+    "scores": 3.13976867768996
+  },
+  {
+    "id": 163,
+    "state_abb": "KY",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0482486610001191,
+    "scores": 1.10601642239023
+  },
+  {
+    "id": 164,
+    "state_abb": "LA",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.00451805007166716,
+    "scores": 4.66903230213951
+  },
+  {
+    "id": 165,
+    "state_abb": "ME",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.27205814715916,
+    "scores": 2.95616293441895
+  },
+  {
+    "id": 166,
+    "state_abb": "MD",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.00113800798652518,
+    "scores": 3.90408688502247
+  },
+  {
+    "id": 167,
+    "state_abb": "MA",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0812003413741209,
+    "scores": 2.89603948061856
+  },
+  {
+    "id": 168,
+    "state_abb": "MI",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0164960041633069,
+    "scores": 2.12702126377598
+  },
+  {
+    "id": 169,
+    "state_abb": "MN",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.281638678612487,
+    "scores": 2.8477961017571
+  },
+  {
+    "id": 170,
+    "state_abb": "MS",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0991556822872612,
+    "scores": 0.446447562522445
+  },
+  {
+    "id": 171,
+    "state_abb": "MO",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0366643880408391,
+    "scores": 3.57271467684783
+  },
+  {
+    "id": 172,
+    "state_abb": "MT",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0400255548271764,
+    "scores": 4.03711603698308
+  },
+  {
+    "id": 173,
+    "state_abb": "NE",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0900411125741868,
+    "scores": 3.82645665968466
+  },
+  {
+    "id": 174,
+    "state_abb": "NV",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.181411560327601,
+    "scores": 0.870717460177909
+  },
+  {
+    "id": 175,
+    "state_abb": "NH",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.107430381128973,
+    "scores": 2.54922811176181
+  },
+  {
+    "id": 176,
+    "state_abb": "NJ",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.243534980876634,
+    "scores": 1.48886538502692
+  },
+  {
+    "id": 177,
+    "state_abb": "NM",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.00847324033979626,
+    "scores": -0.144887511498697
+  },
+  {
+    "id": 178,
+    "state_abb": "NY",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.116521502396522,
+    "scores": 5.43513122590761
+  },
+  {
+    "id": 179,
+    "state_abb": "NC",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0118513540690003,
+    "scores": 1.84904711590083
+  },
+  {
+    "id": 180,
+    "state_abb": "ND",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0225063659751651,
+    "scores": 4.93875709148046
+  },
+  {
+    "id": 181,
+    "state_abb": "OH",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.192316145328001,
+    "scores": 3.24420031580577
+  },
+  {
+    "id": 182,
+    "state_abb": "OK",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0911097969634408,
+    "scores": 1.24231802360837
+  },
+  {
+    "id": 183,
+    "state_abb": "OR",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0829409420478614,
+    "scores": 1.81146634533389
+  },
+  {
+    "id": 184,
+    "state_abb": "PA",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0927664914705803,
+    "scores": 4.98749581015653
+  },
+  {
+    "id": 185,
+    "state_abb": "RI",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.215105274817665,
+    "scores": 5.26363041628689
+  },
+  {
+    "id": 186,
+    "state_abb": "SC",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.201762473135158,
+    "scores": 0.358778751999775
+  },
+  {
+    "id": 187,
+    "state_abb": "SD",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0272556744046197,
+    "scores": 0.637813007939567
+  },
+  {
+    "id": 188,
+    "state_abb": "TN",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0235097190802481,
+    "scores": 3.10705865435396
+  },
+  {
+    "id": 189,
+    "state_abb": "TX",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.336387911224044,
+    "scores": 4.85798358753459
+  },
+  {
+    "id": 190,
+    "state_abb": "UT",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.342803513268074,
+    "scores": 4.67158485646492
+  },
+  {
+    "id": 191,
+    "state_abb": "VT",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0535282504566701,
+    "scores": 5.30022117161443
+  },
+  {
+    "id": 192,
+    "state_abb": "VA",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0847255582553018,
+    "scores": 1.34023292606607
+  },
+  {
+    "id": 193,
+    "state_abb": "WA",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.166838002450692,
+    "scores": 2.19762399788794
+  },
+  {
+    "id": 194,
+    "state_abb": "WV",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.061622074847596,
+    "scores": 2.64365931856657
+  },
+  {
+    "id": 195,
+    "state_abb": "WI",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.406454625082372,
+    "scores": 4.73859947091915
+  },
+  {
+    "id": 196,
+    "state_abb": "WY",
+    "sex": 1,
+    "age": 1,
+    "race": 0,
+    "proportions": 0.0262327120447947,
+    "scores": 3.11616172836316
+  },
+  {
+    "id": 197,
+    "state_abb": "AL",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0368089240922329,
+    "scores": 0.190434345754039
+  },
+  {
+    "id": 198,
+    "state_abb": "AZ",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.00649380078214684,
+    "scores": 0.415189235403706
+  },
+  {
+    "id": 199,
+    "state_abb": "AR",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0814025095095275,
+    "scores": 3.87948435002671
+  },
+  {
+    "id": 200,
+    "state_abb": "CA",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0560471426150239,
+    "scores": 1.52598692287453
+  },
+  {
+    "id": 201,
+    "state_abb": "CO",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.046301755668503,
+    "scores": 3.19774141716102
+  },
+  {
+    "id": 202,
+    "state_abb": "CT",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.19778674820612,
+    "scores": 2.01906277668226
+  },
+  {
+    "id": 203,
+    "state_abb": "DE",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.228724110584748,
+    "scores": 1.00026256227708
+  },
+  {
+    "id": 204,
+    "state_abb": "DC",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0946447007688789,
+    "scores": 6.25802311119244
+  },
+  {
+    "id": 205,
+    "state_abb": "FL",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0711061140981588,
+    "scores": 4.54248620088342
+  },
+  {
+    "id": 206,
+    "state_abb": "GA",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.126093837156576,
+    "scores": 2.30205600526331
+  },
+  {
+    "id": 207,
+    "state_abb": "ID",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.251671119883094,
+    "scores": 6.0340822852656
+  },
+  {
+    "id": 208,
+    "state_abb": "IL",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.374940331006568,
+    "scores": 1.86459703551306
+  },
+  {
+    "id": 209,
+    "state_abb": "IN",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.072896721790213,
+    "scores": 3.52942193489614
+  },
+  {
+    "id": 210,
+    "state_abb": "IA",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.139767576362074,
+    "scores": 4.20255235319025
+  },
+  {
+    "id": 211,
+    "state_abb": "KS",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.138068313125968,
+    "scores": 3.32678629001135
+  },
+  {
+    "id": 212,
+    "state_abb": "KY",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0518122975003387,
+    "scores": 1.49292604356737
+  },
+  {
+    "id": 213,
+    "state_abb": "LA",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.252348698104176,
+    "scores": 4.93017951271748
+  },
+  {
+    "id": 214,
+    "state_abb": "ME",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0633116086100045,
+    "scores": 3.58563055411601
+  },
+  {
+    "id": 215,
+    "state_abb": "MD",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0104127167009931,
+    "scores": 4.25970851826658
+  },
+  {
+    "id": 216,
+    "state_abb": "MA",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.137013635665444,
+    "scores": 3.27492879211507
+  },
+  {
+    "id": 217,
+    "state_abb": "MI",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.026471177872425,
+    "scores": 2.79928744840533
+  },
+  {
+    "id": 218,
+    "state_abb": "MN",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0260136033453298,
+    "scores": 3.12440880642146
+  },
+  {
+    "id": 219,
+    "state_abb": "MS",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0995745896644378,
+    "scores": 0.695114303522164
+  },
+  {
+    "id": 220,
+    "state_abb": "MO",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.442353936605838,
+    "scores": 4.32891989272366
+  },
+  {
+    "id": 221,
+    "state_abb": "MT",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.402623738525148,
+    "scores": 4.6446342792109
+  },
+  {
+    "id": 222,
+    "state_abb": "NE",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.109387127019377,
+    "scores": 3.82446463421715
+  },
+  {
+    "id": 223,
+    "state_abb": "NV",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.231012205532269,
+    "scores": 1.2341217460992
+  },
+  {
+    "id": 224,
+    "state_abb": "NH",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.388927639688146,
+    "scores": 2.45303484191194
+  },
+  {
+    "id": 225,
+    "state_abb": "NJ",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.124383121643527,
+    "scores": 1.73369302020446
+  },
+  {
+    "id": 226,
+    "state_abb": "NM",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0685229215260423,
+    "scores": 0.192091950428324
+  },
+  {
+    "id": 227,
+    "state_abb": "NY",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.174675637395673,
+    "scores": 5.42370150770789
+  },
+  {
+    "id": 228,
+    "state_abb": "NC",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.311102829310463,
+    "scores": 1.91040142253597
+  },
+  {
+    "id": 229,
+    "state_abb": "ND",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.228789599646871,
+    "scores": 5.07216638900149
+  },
+  {
+    "id": 230,
+    "state_abb": "OH",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0408962534946415,
+    "scores": 3.49426634966319
+  },
+  {
+    "id": 231,
+    "state_abb": "OK",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0221613191877728,
+    "scores": 1.80041655367589
+  },
+  {
+    "id": 232,
+    "state_abb": "OR",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.159012695141327,
+    "scores": 2.13036507333978
+  },
+  {
+    "id": 233,
+    "state_abb": "PA",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0320762815682935,
+    "scores": 4.97361739904583
+  },
+  {
+    "id": 234,
+    "state_abb": "RI",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0678886321846543,
+    "scores": 5.90951384555338
+  },
+  {
+    "id": 235,
+    "state_abb": "SC",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.138064927083423,
+    "scores": 1.29032162441801
+  },
+  {
+    "id": 236,
+    "state_abb": "SD",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0677126071051721,
+    "scores": 0.803728888239368
+  },
+  {
+    "id": 237,
+    "state_abb": "TN",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0639737501375136,
+    "scores": 3.45710999666993
+  },
+  {
+    "id": 238,
+    "state_abb": "TX",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.053706885459255,
+    "scores": 5.00046657254101
+  },
+  {
+    "id": 239,
+    "state_abb": "UT",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.104077889930593,
+    "scores": 5.18125072403636
+  },
+  {
+    "id": 240,
+    "state_abb": "VT",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.158985470800931,
+    "scores": 5.71900500733068
+  },
+  {
+    "id": 241,
+    "state_abb": "VA",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0957513700287989,
+    "scores": 1.90189714738578
+  },
+  {
+    "id": 242,
+    "state_abb": "WA",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.265145611548479,
+    "scores": 2.8440468785332
+  },
+  {
+    "id": 243,
+    "state_abb": "WV",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0199184670146891,
+    "scores": 2.65396879854245
+  },
+  {
+    "id": 244,
+    "state_abb": "WI",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0403670019377825,
+    "scores": 5.17982575538321
+  },
+  {
+    "id": 245,
+    "state_abb": "WY",
+    "sex": 0,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0997023632853175,
+    "scores": 3.97631282786511
+  },
+  {
+    "id": 246,
+    "state_abb": "AL",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0295752764147363,
+    "scores": 0.423856998416071
+  },
+  {
+    "id": 247,
+    "state_abb": "AZ",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0354668302521934,
+    "scores": -0.0109689104400407
+  },
+  {
+    "id": 248,
+    "state_abb": "AR",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0556747181702701,
+    "scores": 3.9098285868213
+  },
+  {
+    "id": 249,
+    "state_abb": "CA",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.204256708489266,
+    "scores": 2.15968318129259
+  },
+  {
+    "id": 250,
+    "state_abb": "CO",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.130971751569994,
+    "scores": 3.83827902442846
+  },
+  {
+    "id": 251,
+    "state_abb": "CT",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0961202218236167,
+    "scores": 2.41183345274881
+  },
+  {
+    "id": 252,
+    "state_abb": "DE",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.133576937779021,
+    "scores": 1.33549205674344
+  },
+  {
+    "id": 253,
+    "state_abb": "DC",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.242250994815999,
+    "scores": 6.44409057689878
+  },
+  {
+    "id": 254,
+    "state_abb": "FL",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0298064065938865,
+    "scores": 4.6024401832929
+  },
+  {
+    "id": 255,
+    "state_abb": "GA",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.115584902865987,
+    "scores": 2.42879132518752
+  },
+  {
+    "id": 256,
+    "state_abb": "ID",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0598472334103271,
+    "scores": 6.62022256713802
+  },
+  {
+    "id": 257,
+    "state_abb": "IL",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0208284550992871,
+    "scores": 2.1643598103054
+  },
+  {
+    "id": 258,
+    "state_abb": "IN",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.288527526358082,
+    "scores": 3.48253635271391
+  },
+  {
+    "id": 259,
+    "state_abb": "IA",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.246692913406471,
+    "scores": 3.96240636651608
+  },
+  {
+    "id": 260,
+    "state_abb": "KS",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0685984360100928,
+    "scores": 3.89370912290336
+  },
+  {
+    "id": 261,
+    "state_abb": "KY",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.069588508308285,
+    "scores": 1.37011071266202
+  },
+  {
+    "id": 262,
+    "state_abb": "LA",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.040695654725748,
+    "scores": 5.57669888105022
+  },
+  {
+    "id": 263,
+    "state_abb": "ME",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0694555511267542,
+    "scores": 3.68091921703395
+  },
+  {
+    "id": 264,
+    "state_abb": "MD",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.240743338067302,
+    "scores": 4.59235967307022
+  },
+  {
+    "id": 265,
+    "state_abb": "MA",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.201826538252371,
+    "scores": 2.96716695613964
+  },
+  {
+    "id": 266,
+    "state_abb": "MI",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.00591866095553747,
+    "scores": 2.88992359632293
+  },
+  {
+    "id": 267,
+    "state_abb": "MN",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0341728627059832,
+    "scores": 3.56290473492871
+  },
+  {
+    "id": 268,
+    "state_abb": "MS",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.208900859088077,
+    "scores": 1.01323968622777
+  },
+  {
+    "id": 269,
+    "state_abb": "MO",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0471300857191793,
+    "scores": 4.75355999650036
+  },
+  {
+    "id": 270,
+    "state_abb": "MT",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.112815930756403,
+    "scores": 4.91023285331166
+  },
+  {
+    "id": 271,
+    "state_abb": "NE",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.00145345144584918,
+    "scores": 3.93118884229211
+  },
+  {
+    "id": 272,
+    "state_abb": "NV",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0539599535255443,
+    "scores": 1.5914113520862
+  },
+  {
+    "id": 273,
+    "state_abb": "NH",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.174241138486751,
+    "scores": 3.45135504619222
+  },
+  {
+    "id": 274,
+    "state_abb": "NJ",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.285545140924302,
+    "scores": 1.64806316299787
+  },
+  {
+    "id": 275,
+    "state_abb": "NM",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.348573028595575,
+    "scores": 0.49834877351314
+  },
+  {
+    "id": 276,
+    "state_abb": "NY",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.000546335179494122,
+    "scores": 5.2954476134354
+  },
+  {
+    "id": 277,
+    "state_abb": "NC",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0845929985770303,
+    "scores": 2.50522149731145
+  },
+  {
+    "id": 278,
+    "state_abb": "ND",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.19895003226156,
+    "scores": 5.55911553887917
+  },
+  {
+    "id": 279,
+    "state_abb": "OH",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0902032822267687,
+    "scores": 3.58071063594932
+  },
+  {
+    "id": 280,
+    "state_abb": "OK",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.110936144992782,
+    "scores": 2.22289115466006
+  },
+  {
+    "id": 281,
+    "state_abb": "OR",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0351017008804956,
+    "scores": 2.66394672683217
+  },
+  {
+    "id": 282,
+    "state_abb": "PA",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.286252500540225,
+    "scores": 5.34580004842132
+  },
+  {
+    "id": 283,
+    "state_abb": "RI",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.000112073066818031,
+    "scores": 5.58867567909847
+  },
+  {
+    "id": 284,
+    "state_abb": "SC",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0262131991672971,
+    "scores": 1.58829409615749
+  },
+  {
+    "id": 285,
+    "state_abb": "SD",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.120441504511453,
+    "scores": 1.40386505891397
+  },
+  {
+    "id": 286,
+    "state_abb": "TN",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.338813192355913,
+    "scores": 3.57470962531583
+  },
+  {
+    "id": 287,
+    "state_abb": "TX",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.133748557336838,
+    "scores": 5.73710910441727
+  },
+  {
+    "id": 288,
+    "state_abb": "UT",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0401532328518151,
+    "scores": 5.49200082892258
+  },
+  {
+    "id": 289,
+    "state_abb": "VT",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0199913409701986,
+    "scores": 5.60122054684455
+  },
+  {
+    "id": 290,
+    "state_abb": "VA",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.393873903645075,
+    "scores": 2.02311304082717
+  },
+  {
+    "id": 291,
+    "state_abb": "WA",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0837273462486545,
+    "scores": 3.12001544893771
+  },
+  {
+    "id": 292,
+    "state_abb": "WV",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.264192193702524,
+    "scores": 2.92069563346893
+  },
+  {
+    "id": 293,
+    "state_abb": "WI",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0410395599877536,
+    "scores": 5.52794951478794
+  },
+  {
+    "id": 294,
+    "state_abb": "WY",
+    "sex": 1,
+    "age": 0,
+    "race": 1,
+    "proportions": 0.0278701784560044,
+    "scores": 3.66844177953908
+  },
+  {
+    "id": 295,
+    "state_abb": "AL",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0972482259522552,
+    "scores": 0.0181086016894849
+  },
+  {
+    "id": 296,
+    "state_abb": "AZ",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.151030975665944,
+    "scores": -0.0883233561322631
+  },
+  {
+    "id": 297,
+    "state_abb": "AR",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0413891131291718,
+    "scores": 3.16747565530181
+  },
+  {
+    "id": 298,
+    "state_abb": "CA",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.00659996159249363,
+    "scores": 1.03188098916869
+  },
+  {
+    "id": 299,
+    "state_abb": "CO",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0222597354202528,
+    "scores": 3.04028149907399
+  },
+  {
+    "id": 300,
+    "state_abb": "CT",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.053079152733742,
+    "scores": 2.15131464898764
+  },
+  {
+    "id": 301,
+    "state_abb": "DE",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0739864136247996,
+    "scores": 0.995743656350469
+  },
+  {
+    "id": 302,
+    "state_abb": "DC",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0105994456763758,
+    "scores": 5.71852204707571
+  },
+  {
+    "id": 303,
+    "state_abb": "FL",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.160018243654379,
+    "scores": 4.52218823564699
+  },
+  {
+    "id": 304,
+    "state_abb": "GA",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0479043001568087,
+    "scores": 1.5379122579563
+  },
+  {
+    "id": 305,
+    "state_abb": "ID",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0701411466983617,
+    "scores": 6.01983988125995
+  },
+  {
+    "id": 306,
+    "state_abb": "IL",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0504847242583204,
+    "scores": 1.49539241228634
+  },
+  {
+    "id": 307,
+    "state_abb": "IN",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0365272172949251,
+    "scores": 3.24943126590084
+  },
+  {
+    "id": 308,
+    "state_abb": "IA",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0448055824152609,
+    "scores": 3.93581992077238
+  },
+  {
+    "id": 309,
+    "state_abb": "KS",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0402216876737438,
+    "scores": 3.48344903364774
+  },
+  {
+    "id": 310,
+    "state_abb": "KY",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.380554978846816,
+    "scores": 1.19537611344586
+  },
+  {
+    "id": 311,
+    "state_abb": "LA",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.168362686001454,
+    "scores": 4.62865807578841
+  },
+  {
+    "id": 312,
+    "state_abb": "ME",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.212216683359575,
+    "scores": 3.11217684201
+  },
+  {
+    "id": 313,
+    "state_abb": "MD",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0282680211538087,
+    "scores": 3.92243106169043
+  },
+  {
+    "id": 314,
+    "state_abb": "MA",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.064894387619672,
+    "scores": 2.59159892047266
+  },
+  {
+    "id": 315,
+    "state_abb": "MI",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.614722889969234,
+    "scores": 2.44078749215731
+  },
+  {
+    "id": 316,
+    "state_abb": "MN",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.469758552544242,
+    "scores": 3.39512997092498
+  },
+  {
+    "id": 317,
+    "state_abb": "MS",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.10680912223589,
+    "scores": 0.24208251624951
+  },
+  {
+    "id": 318,
+    "state_abb": "MO",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.118055590375313,
+    "scores": 4.01356068783698
+  },
+  {
+    "id": 319,
+    "state_abb": "MT",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0161756376733007,
+    "scores": 4.50534865662238
+  },
+  {
+    "id": 320,
+    "state_abb": "NE",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.00474615490512624,
+    "scores": 3.79072117006702
+  },
+  {
+    "id": 321,
+    "state_abb": "NV",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0184929334761455,
+    "scores": 1.11304625202436
+  },
+  {
+    "id": 322,
+    "state_abb": "NH",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.104157249138645,
+    "scores": 2.91308359209057
+  },
+  {
+    "id": 323,
+    "state_abb": "NJ",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0465498867281736,
+    "scores": 1.44031846286196
+  },
+  {
+    "id": 324,
+    "state_abb": "NM",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0293887100320056,
+    "scores": 0.0383501969107928
+  },
+  {
+    "id": 325,
+    "state_abb": "NY",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0335877856323443,
+    "scores": 4.8032432809428
+  },
+  {
+    "id": 326,
+    "state_abb": "NC",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.201863984848394,
+    "scores": 1.94749819003116
+  },
+  {
+    "id": 327,
+    "state_abb": "ND",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.252488308190224,
+    "scores": 4.72050644894751
+  },
+  {
+    "id": 328,
+    "state_abb": "OH",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.118158913745414,
+    "scores": 3.03449967177316
+  },
+  {
+    "id": 329,
+    "state_abb": "OK",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0369568426230126,
+    "scores": 1.72615315969359
+  },
+  {
+    "id": 330,
+    "state_abb": "OR",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0319010154845956,
+    "scores": 1.73270991470727
+  },
+  {
+    "id": 331,
+    "state_abb": "PA",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.261815213651976,
+    "scores": 4.68814341987231
+  },
+  {
+    "id": 332,
+    "state_abb": "RI",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0944624679423725,
+    "scores": 5.60782203454467
+  },
+  {
+    "id": 333,
+    "state_abb": "SC",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.254334481304127,
+    "scores": 0.532443875315798
+  },
+  {
+    "id": 334,
+    "state_abb": "SD",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0985809714989813,
+    "scores": 0.68219483108028
+  },
+  {
+    "id": 335,
+    "state_abb": "TN",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.00529798321888774,
+    "scores": 2.70743642267345
+  },
+  {
+    "id": 336,
+    "state_abb": "TX",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.107493712309192,
+    "scores": 5.00607799382783
+  },
+  {
+    "id": 337,
+    "state_abb": "UT",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.117730888312722,
+    "scores": 5.19099162369171
+  },
+  {
+    "id": 338,
+    "state_abb": "VT",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.16382366119471,
+    "scores": 5.09273990977065
+  },
+  {
+    "id": 339,
+    "state_abb": "VA",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0546544627883519,
+    "scores": 1.54135195356558
+  },
+  {
+    "id": 340,
+    "state_abb": "WA",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0120255108597815,
+    "scores": 2.2277166637964
+  },
+  {
+    "id": 341,
+    "state_abb": "WV",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0383814273299987,
+    "scores": 2.15161557976456
+  },
+  {
+    "id": 342,
+    "state_abb": "WI",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.118590976329105,
+    "scores": 4.81120992944684
+  },
+  {
+    "id": 343,
+    "state_abb": "WY",
+    "sex": 0,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.301311059359636,
+    "scores": 3.18812293691911
+  },
+  {
+    "id": 344,
+    "state_abb": "AL",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.127194006841689,
+    "scores": 0.141297054210817
+  },
+  {
+    "id": 345,
+    "state_abb": "AZ",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.174261117951816,
+    "scores": -0.16853419219438
+  },
+  {
+    "id": 346,
+    "state_abb": "AR",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.166535851598575,
+    "scores": 3.50085942044961
+  },
+  {
+    "id": 347,
+    "state_abb": "CA",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0585450523325919,
+    "scores": 1.23940829671821
+  },
+  {
+    "id": 348,
+    "state_abb": "CO",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.463736273218345,
+    "scores": 3.16187439489875
+  },
+  {
+    "id": 349,
+    "state_abb": "CT",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.159861706767374,
+    "scores": 2.19855356683717
+  },
+  {
+    "id": 350,
+    "state_abb": "DE",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0773344952812252,
+    "scores": 1.16962341499874
+  },
+  {
+    "id": 351,
+    "state_abb": "DC",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.253036000081843,
+    "scores": 6.23510313623871
+  },
+  {
+    "id": 352,
+    "state_abb": "FL",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.012369186246907,
+    "scores": 4.2392998029473
+  },
+  {
+    "id": 353,
+    "state_abb": "GA",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0462598391474614,
+    "scores": 1.97588370237261
+  },
+  {
+    "id": 354,
+    "state_abb": "ID",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.195390051526327,
+    "scores": 6.00231627003368
+  },
+  {
+    "id": 355,
+    "state_abb": "IL",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.156337379042727,
+    "scores": 1.74192701297611
+  },
+  {
+    "id": 356,
+    "state_abb": "IN",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0203419547920831,
+    "scores": 3.30987475897758
+  },
+  {
+    "id": 357,
+    "state_abb": "IA",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.00382021733752213,
+    "scores": 3.97806158828728
+  },
+  {
+    "id": 358,
+    "state_abb": "KS",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.322955604740771,
+    "scores": 3.4774802086772
+  },
+  {
+    "id": 359,
+    "state_abb": "KY",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0527242489629509,
+    "scores": 1.79024036576597
+  },
+  {
+    "id": 360,
+    "state_abb": "LA",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.363309857536439,
+    "scores": 4.6041150126916
+  },
+  {
+    "id": 361,
+    "state_abb": "ME",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.176365064819486,
+    "scores": 3.25802882585331
+  },
+  {
+    "id": 362,
+    "state_abb": "MD",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0914217652834627,
+    "scores": 4.1603949217423
+  },
+  {
+    "id": 363,
+    "state_abb": "MA",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.19546247731007,
+    "scores": 2.93369906500281
+  },
+  {
+    "id": 364,
+    "state_abb": "MI",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.093434734181469,
+    "scores": 2.45800877037446
+  },
+  {
+    "id": 365,
+    "state_abb": "MN",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.11108234867255,
+    "scores": 3.25859304883231
+  },
+  {
+    "id": 366,
+    "state_abb": "MS",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.116019853257492,
+    "scores": 0.593227462439912
+  },
+  {
+    "id": 367,
+    "state_abb": "MO",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0527678881340727,
+    "scores": 4.34130621635583
+  },
+  {
+    "id": 368,
+    "state_abb": "MT",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.253281988458846,
+    "scores": 4.00876027430049
+  },
+  {
+    "id": 369,
+    "state_abb": "NE",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0244160845551343,
+    "scores": 3.79039562734311
+  },
+  {
+    "id": 370,
+    "state_abb": "NV",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.167165572067818,
+    "scores": 1.6085255467222
+  },
+  {
+    "id": 371,
+    "state_abb": "NH",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0689343592467598,
+    "scores": 3.05654503970371
+  },
+  {
+    "id": 372,
+    "state_abb": "NJ",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0408318617171632,
+    "scores": 1.3303148023644
+  },
+  {
+    "id": 373,
+    "state_abb": "NM",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0241797378966544,
+    "scores": 0.316079926328667
+  },
+  {
+    "id": 374,
+    "state_abb": "NY",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.023248406261212,
+    "scores": 5.12979386569751
+  },
+  {
+    "id": 375,
+    "state_abb": "NC",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.215240723472623,
+    "scores": 2.06009902022846
+  },
+  {
+    "id": 376,
+    "state_abb": "ND",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0422137150171895,
+    "scores": 4.60308102948876
+  },
+  {
+    "id": 377,
+    "state_abb": "OH",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.104082272318811,
+    "scores": 3.17939709019774
+  },
+  {
+    "id": 378,
+    "state_abb": "OK",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0598877939290482,
+    "scores": 1.97473662553778
+  },
+  {
+    "id": 379,
+    "state_abb": "OR",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0791033852747253,
+    "scores": 2.0645940185706
+  },
+  {
+    "id": 380,
+    "state_abb": "PA",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.122443866200597,
+    "scores": 4.98312916718853
+  },
+  {
+    "id": 381,
+    "state_abb": "RI",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0500166976248119,
+    "scores": 5.52371899560344
+  },
+  {
+    "id": 382,
+    "state_abb": "SC",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.163810406628185,
+    "scores": 0.988602980823326
+  },
+  {
+    "id": 383,
+    "state_abb": "SD",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.149801252636825,
+    "scores": 0.622275498107291
+  },
+  {
+    "id": 384,
+    "state_abb": "TN",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.133304483175917,
+    "scores": 3.39095578580391
+  },
+  {
+    "id": 385,
+    "state_abb": "TX",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.101105339460526,
+    "scores": 5.52825764273436
+  },
+  {
+    "id": 386,
+    "state_abb": "UT",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0629601094114368,
+    "scores": 5.17984070141749
+  },
+  {
+    "id": 387,
+    "state_abb": "VT",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.135688833852912,
+    "scores": 5.41056627468195
+  },
+  {
+    "id": 388,
+    "state_abb": "VA",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0244674778608845,
+    "scores": 1.78073655888722
+  },
+  {
+    "id": 389,
+    "state_abb": "WA",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0182506365409945,
+    "scores": 2.67981968303483
+  },
+  {
+    "id": 390,
+    "state_abb": "WV",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.0792353673498904,
+    "scores": 2.57755271263718
+  },
+  {
+    "id": 391,
+    "state_abb": "WI",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.00426379784168667,
+    "scores": 5.13228522991271
+  },
+  {
+    "id": 392,
+    "state_abb": "WY",
+    "sex": 1,
+    "age": 1,
+    "race": 1,
+    "proportions": 0.17330446425645,
+    "scores": 3.62372587978107
+  }
+]

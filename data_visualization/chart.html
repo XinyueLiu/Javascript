@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Charts</title>
+    <style type="text/css">
+        .chart ul{list-style-type: none;}
+        .chart li{display: inline-block;}
+        .chart li{margin: 10px 0;}
+    </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- bootstrap -->
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap-overrides.css" type="text/css" rel="stylesheet" />
+
+    <!-- libraries -->
+    <link href="css/lib/jquery-ui-1.10.2.custom.css" rel="stylesheet" type="text/css" />
+   
+
+    <!-- global styles -->
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="css/elements.css" />
+
+
+    <!-- this page specific styles -->
+    <link rel="stylesheet" href="css/compiled/index.css" type="text/css" media="screen" />    
+
+    <!-- open sans font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' />
+
+    <!-- lato font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootsnav.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-labelauty.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+
+    <!-- navbar -->
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <button type="button" class="btn btn-navbar visible-phone" id="menu-toggler">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>           
+        </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- sidebar -->
+    <div id="sidebar-nav">
+        <ul id="dashboard-menu">
+            <li>
+                <a href="index.html">
+                    <span>Home</span>
+                </a>
+            </li>            
+            <li class="active">
+                <div class="pointer">
+                    <div class="arrow"></div>
+                    <div class="arrow_border"></div>
+                </div>
+                <a href="chart.html">
+                    <span>Charts</span>
+                </a>
+            </li>
+            <li>
+                <a href="tables.html">
+                    <span>Tables</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+
+    <!-- main container -->
+    <div class="content">
+
+        <!-- settings changer -->
+        <div class="skins-nav">
+            <a href="#" class="skin first_nav selected">
+                <span class="icon"></span><span class="text">Default skin</span>
+            </a>
+            <a href="#" class="skin second_nav" data-file="css/skins/dark.css">
+                <span class="icon"></span><span class="text">Dark skin</span>
+            </a>
+        </div>
+
+        <div class="container-fluid">
+            <div class="panel panel-primary" id="second_line" style="margin-top: 2%">
+                <div class="panel-heading"><b>Generate Secondary Chart</b></div>
+                <div class="panel-body">
+                    <p>Please select a state:</p>
+                    <ul class="chart dowebok1">
+                        <li><input type="radio" name="radio" value="AL" data-labelauty="   AL  "></li>
+                        <li><input type="radio" name="radio" value="AR" data-labelauty="   AR  "></li>
+                        <li><input type="radio" name="radio" value="AZ" data-labelauty="   AZ  "></li>
+                        <li><input type="radio" name="radio" value="CA" data-labelauty="   CA  "></li>
+                        <li><input type="radio" name="radio" value="CO" data-labelauty="   CO  "></li>
+                        <li><input type="radio" name="radio" value="CT" data-labelauty="   CT  "></li>
+                        <li><input type="radio" name="radio" value="DC" data-labelauty="   DC  "></li>
+                        <li><input type="radio" name="radio" value="DE" data-labelauty="   DE  "></li>
+                        <li><input type="radio" name="radio" value="FL" data-labelauty="   FL  "></li>
+                        <li><input type="radio" name="radio" value="GA" data-labelauty="   GA  "></li>
+                        <li><input type="radio" name="radio" value="IA" data-labelauty="   IA  "></li>
+                        <li><input type="radio" name="radio" value="ID" data-labelauty="   ID  "></li>
+                        <li><input type="radio" name="radio" value="IL" data-labelauty="   IL  "></li>
+                        <li><input type="radio" name="radio" value="IN" data-labelauty="   IN  "></li>
+                        <li><input type="radio" name="radio" value="KS" data-labelauty="   KS  "></li>
+                        <li><input type="radio" name="radio" value="KY" data-labelauty="   KY  "></li>
+                        <li><input type="radio" name="radio" value="LA" data-labelauty="   LA  "></li>
+                        <li><input type="radio" name="radio" value="MA" data-labelauty="   MA  "></li>
+                        <li><input type="radio" name="radio" value="MD" data-labelauty="   MD  "></li>
+                        <li><input type="radio" name="radio" value="ME" data-labelauty="   ME  "></li>
+                        <li><input type="radio" name="radio" value="MI" data-labelauty="   MI  "></li>
+                        <li><input type="radio" name="radio" value="MN" data-labelauty="   MN  "></li>
+                        <li><input type="radio" name="radio" value="MO" data-labelauty="   MO  "></li>
+                        <li><input type="radio" name="radio" value="MS" data-labelauty="   MS  "></li>
+                        <li><input type="radio" name="radio" value="MT" data-labelauty="   MT  "></li>
+                        <li><input type="radio" name="radio" value="NC" data-labelauty="   NC  "></li>
+                        <li><input type="radio" name="radio" value="ND" data-labelauty="   ND  "></li>
+                        <li><input type="radio" name="radio" value="NE" data-labelauty="   NE  "></li>
+                        <li><input type="radio" name="radio" value="NH" data-labelauty="   NH  "></li>
+                        <li><input type="radio" name="radio" value="NJ" data-labelauty="   NJ  "></li>
+                        <li><input type="radio" name="radio" value="NM" data-labelauty="   NM  "></li>
+                        <li><input type="radio" name="radio" value="NV" data-labelauty="   NV  "></li>
+                        <li><input type="radio" name="radio" value="NY" data-labelauty="   NY  "></li>
+                        <li><input type="radio" name="radio" value="OH" data-labelauty="   OH  "></li>
+                        <li><input type="radio" name="radio" value="OK" data-labelauty="   OK  "></li>
+                        <li><input type="radio" name="radio" value="OR" data-labelauty="   OR  "></li>
+                        <li><input type="radio" name="radio" value="PA" data-labelauty="   PA  "></li>
+                        <li><input type="radio" name="radio" value="RI" data-labelauty="   RI  "></li>
+                        <li><input type="radio" name="radio" value="SC" data-labelauty="   SC  "></li>
+                        <li><input type="radio" name="radio" value="SD" data-labelauty="   SD  "></li>
+                        <li><input type="radio" name="radio" value="TN" data-labelauty="   TN  "></li>
+                        <li><input type="radio" name="radio" value="TX" data-labelauty="   TX  "></li>
+                        <li><input type="radio" name="radio" value="UT" data-labelauty="   UT  "></li>
+                        <li><input type="radio" name="radio" value="VA" data-labelauty="   VA  "></li>
+                        <li><input type="radio" name="radio" value="VT" data-labelauty="   VT  "></li>
+                        <li><input type="radio" name="radio" value="WA" data-labelauty="   WA  "></li>
+                        <li><input type="radio" name="radio" value="WI" data-labelauty="   WI  "></li>
+                        <li><input type="radio" name="radio" value="WV" data-labelauty="   WV  "></li>
+                        <li><input type="radio" name="radio" value="WY" data-labelauty="   WY  "></li>
+                        <!-- <li><input type="radio" name="radio" disabled data-labelauty="disabled"></li> -->
+                    </ul>
+                    <div class="fl" id="allstate_barchar"></div>
+                    <div class="btn-group" role="group" style="margin-bottom: 2%">
+                      <button id="line" type="button" class="btn btn-secondary">Line</button>
+                      <button id="area" type="button" class="btn btn-secondary">Area</button>
+                      <button id="scatter" class="btn btn-secondary">Scatter</button>
+                      <button id="pie" class="btn btn-secondary">Pie</button>
+                      <button id="column" type="button" class="btn btn-secondary">Column</button>
+                      <button id="spline" type="button" class="btn btn-secondary">Spline</button>
+                      <button id="areaspline" class="btn btn-secondary">Areaspline</button>
+                    </div>
+                    <div id="properties">
+                        <p>Switch property:</p>
+                        <ul class="chart dowebok2">
+                            <li><input type="radio" name="radio2" value='sex' data-labelauty="Gender"></li>
+                            <li><input type="radio" name="radio2" value='age' data-labelauty="Age"></li>
+                            <li><input type="radio" name="radio2" value='race' data-labelauty="Race"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    <!-- scripts -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/barChart_all_state.js"></script>
+    <script src="js/mapChart_all_state.js"></script>
+    <script src="js/barChart_draw.js"></script>
+    <script type="text/javascript" src="js/bootsnav.js"></script>
+    <script type="text/javascript" src="js/jquery-labelauty.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(':input').labelauty();
+            $('.btn-group').hide();
+            $('#properties').hide();
+        });
+
+        $( ".dowebok1 li input" ).on( "click", function() {
+            $('.btn-group').show();
+            $('#properties').show();
+            redrawMap($( this ).attr("value"));
+        });
+
+        $( ".dowebok2 li input" ).on( "click", function() {
+            addProperties($( this ).attr("value"));
+        });
+    </script>
+</body>
+</html>

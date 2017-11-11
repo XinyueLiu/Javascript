@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+    <!-- bootstrap -->
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap-overrides.css" type="text/css" rel="stylesheet" />
+
+    <!-- libraries -->
+    <link href="css/lib/jquery-ui-1.10.2.custom.css" rel="stylesheet" type="text/css" />
+
+    <!-- global styles -->
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="css/elements.css" />
+
+
+    <!-- this page specific styles -->
+    <link rel="stylesheet" href="css/compiled/index.css" type="text/css" media="screen" />    
+
+    <!-- open sans font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' />
+
+    <!-- lato font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+
+    <!-- navbar -->
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <button type="button" class="btn btn-navbar visible-phone" id="menu-toggler">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>           
+        </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- sidebar -->
+    <div id="sidebar-nav">
+        <ul id="dashboard-menu">
+            <li class="active">
+                <div class="pointer">
+                    <div class="arrow"></div>
+                    <div class="arrow_border"></div>
+                </div>
+                <a href="index.html">
+                    <span>Home</span>
+                </a>
+            </li>            
+            <li>
+                <a href="chart.html">
+                    <span>Charts</span>
+                </a>
+            </li>
+            <li>
+                <a href="tables.html">
+                    <span>Tables</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+
+	<!-- main container -->
+    <div class="content">
+
+        <!-- settings changer -->
+        <div class="skins-nav">
+            <a href="#" class="skin first_nav selected">
+                <span class="icon"></span><span class="text">Default skin</span>
+            </a>
+            <a href="#" class="skin second_nav" data-file="css/skins/dark.css">
+                <span class="icon"></span><span class="text">Dark skin</span>
+            </a>
+        </div>
+
+        <div class="container-fluid">
+
+            <!-- upper main stats -->
+            <div id="main-stats">
+                <div class="row-fluid stats-row">
+                    <div class="span3 stat">
+                        <div class="data">
+                            <span class="number">300000</span>
+                            people
+                        </div>
+                    </div>
+                    <div class="span3 stat">
+                        <div class="data">
+                            <span class="number">49</span>
+                            states
+                        </div>
+                    </div>
+                    <div class="span3 stat">
+                        <div class="data">
+                            <span class="number">300</span>
+                            countys
+                        </div>
+                    </div>
+                    <div class="span3 stat last">
+                        <div class="data">
+                            <span class="number">5</span>
+                            races
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end upper main stats -->
+
+            <div id="pad-wrapper">
+                <div id="allstate_barchar"></div>
+                <div id="allstate_map" style="float: left; margin-right: 5%; height: 500px; width: 50%"></div>
+                <div style="margin-top: 2%; float: left; width: 30%">
+                    <h3>Basic Summary</h3>
+                                <br />
+                                <!-- recent orders table -->
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th class="span2">
+                                                ID
+                                            </th>
+                                            <th class="span3">
+                                                <span class="line"></span>
+                                                Date
+                                            </th>
+                                            <th class="span3">
+                                                <span class="line"></span>
+                                                Items
+                                            </th>
+                                            <th class="span3">
+                                                <span class="line"></span>
+                                                Total amount
+                                            </th>
+                                            <th class="span3">
+                                                <span class="line"></span>
+                                                Description
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- row -->
+                                        <tr class="first">
+                                            <td>
+                                                <a href="#">#459</a>
+                                            </td>
+                                            <td>
+                                                Sep 20, 2017
+                                            </td>
+                                            <td>
+                                                3
+                                            </td>
+                                            <td>
+                                                3123000
+                                            </td>
+                                            <td>
+                                                USC record update
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#">#510</a>
+                                            </td>
+                                            <td>
+                                                Sep 21, 2017
+                                            </td>
+                                            <td>
+                                                5
+                                            </td>
+                                            <td>
+                                                3125000
+                                            </td>
+                                            <td>
+                                                Orange County record update
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#">#618</a>
+                                            </td>
+                                            <td>
+                                                Sep 22, 2014
+                                            </td>
+                                            <td>
+                                                8
+                                            </td>
+                                            <td>
+                                                3126000
+                                            </td>
+                                            <td>
+                                                MA record update
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><b>Note: <br>For the left map,<br>
+                                                    Scroll up/down to zoom in & out<br>
+                                                    Hover to show data of that point<br>
+                                                    Single click to see more data of that area</b></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+	<!-- scripts -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/barChart_all_state.js"></script>
+    <script src="js/mapChart_all_state.js"></script>
+</body>
+</html>
