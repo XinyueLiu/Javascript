@@ -1,3 +1,6 @@
+# Pig-game
+http://www-scf.usc.edu/~liuxinyu/Pig-Game/index.html
+
 ## GAME RULES:
 
 - The game has 2 players, playing in rounds
