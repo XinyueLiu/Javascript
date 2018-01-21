@@ -6,8 +6,8 @@
 - JSFiddle: https://jsfiddle.net/XinYueLiu/3f2ghysn/
 - For full screen display: http://www-scf.usc.edu/~liuxinyu/CampusProject/assgt2/assgt2.html
 - Description:
-⋅⋅⋅A map will allow the user to use a mouse.
-⋅⋅⋅Use a stylesheet (CSS) to style the SVG.
+  * A map will allow the user to use a mouse.
+  * Use a stylesheet (CSS) to style the SVG.
 ⋅⋅⋅Draw an overlay on top of the SVG map with D3.
 ⋅⋅⋅Dynamic generating svg map by ajax call (jsonp).
 ⋅⋅⋅mouseScroll/doubleClick: zoom in&out map
