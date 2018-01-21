@@ -2,7 +2,6 @@
 
 ## Pig-game
 http://www-scf.usc.edu/~liuxinyu/Pig-Game/index.html
-
 ### GAME RULES:
 
 - The game has 2 players, playing in rounds
@@ -15,7 +14,20 @@ http://www-scf.usc.edu/~liuxinyu/Pig-Game/index.html
 Original Javascript review:
   closure, IIFEs, querySelector, Array, Math.random(), Math.floor()
   
-  
+## China Map - SVG
+### D3.js, Highchart.js, Html, CSS, SVG, Ajax
+- Live demo: 
+JSFiddle: https://jsfiddle.net/XinYueLiu/3f2ghysn/
+For full screen display: http://www-scf.usc.edu/~liuxinyu/CampusProject/assgt2/assgt2.html
+- Description:
+1. A map will allow the user to use a mouse.
+2. Use a stylesheet (CSS) to style the SVG.
+3. Draw an overlay on top of the SVG map with D3.
+4. Dynamic generating svg map by ajax call (jsonp).
+5. mouseScroll/doubleClick: zoom in&out map
+6. mouseHover: show each province's name
+7. mouseClick: click circles to see city info & weather info. (Using 3rd party weather API to fetch dynamic data)
+ 
 ## Data_visualization 
 -	http://www-scf.usc.edu/~liuxinyu/proposal_XinYue_Liu/index.html
 -	Jquery, Highchart, Html, CSS, SVG
