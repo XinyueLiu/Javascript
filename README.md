@@ -8,11 +8,11 @@
 - Description:
   * A map will allow the user to use a mouse.
   * Use a stylesheet (CSS) to style the SVG.
-⋅⋅⋅Draw an overlay on top of the SVG map with D3.
-⋅⋅⋅Dynamic generating svg map by ajax call (jsonp).
-⋅⋅⋅mouseScroll/doubleClick: zoom in&out map
-⋅⋅⋅mouseHover: show each province's name
-⋅⋅⋅mouseClick: click circles to see city info & weather info. (Using 3rd party weather API to fetch dynamic data)
+  * Draw an overlay on top of the SVG map with D3.
+  * Dynamic generating svg map by ajax call (jsonp).
+  * mouseScroll/doubleClick: zoom in&out map
+  * mouseHover: show each province's name
+  * mouseClick: click circles to see city info & weather info. (Using 3rd party weather API to fetch dynamic data)
 
 ## Pig-game
 http://www-scf.usc.edu/~liuxinyu/Pig-Game/index.html
